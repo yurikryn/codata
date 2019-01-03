@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>"use strict"
+
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = () => {
+  if (xhttp.readyState === 4 && xhttp.status === 200) {
+	console.log(JSON.parse(xhttp.responseText));
+  }
+};
+xhttp.open("GET", "http://localhost:8080/api/codata", true);
+xhttp.send();
+
+</script>
+</body>
+</html> 
