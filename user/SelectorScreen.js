@@ -6,13 +6,15 @@ export default class extends Component {
         super(props);
         this.state = {
             isLoading: true,
-			adress: (this.props.navigation.getParam('adress', 'http://192.168.1.5:8080/api/codata')
-				+ this.props.navigation.getParam('name', '').replace(/\x20/g,`_`))
+            adress: this.props.navigation.getParam('adress'),
+            dataSource: {}
         }
     }
-    static navigationOptions = {
-        title: 'Selector',
-    };
+    static navigationOptions = ({ navigation }) => {
+        return {
+          title: navigation.getParam('title')
+        }
+      };
 
     componentDidMount(){
         return (
@@ -36,17 +38,17 @@ export default class extends Component {
                 </View>
             )
         }
-
+        const route = (this.state.dataSource.type === "categories")? 'Selector': 'Value';
         return (
             <View style = { styles.container }>
             <FlatList
-                data = {this.state.dataSource}
+                data = {this.state.dataSource.names}
                 renderItem = { ({item,index}) =>
                     <Button
                         style = { styles.button }
-                        onPress = { () => this.props.navigation.push('Selector', {
-								adress : this.state.adress,
-								name: '/' + item 
+                        onPress = { () => this.props.navigation.push( route, {
+								adress : this.state.adress + '/' + encodeURIComponent(item),
+								title: item 
 							})
                         }
                         title = {item}

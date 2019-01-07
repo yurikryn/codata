@@ -1,14 +1,30 @@
 /**********************************************************************************************/
 exports.content = function(input){
-	const isNotObject = (arg) => typeof arg !== `object` || arg === null;
-	
+	const isNotObject = (input) => typeof input !== `object` || input === null;
+	const isConstantObject = (input) => {for(let key in input){ return  isNotObject(input[key]);}}
+	const isContaneConstants = (input) => {for(let key in input){ return isConstantObject(input[key]);}}
+
 	if(isNotObject(input)){ return input;}
-	else {
-	    let output = [];
+	else if(isConstantObject(input)){ 
+		const output = [];
 		for(let key in input){
-			if( !isNotObject(input[key]) ){ output.push(key); }
-			else{ output.push({ [key]: input[key] }); }
+			if( key.startsWith("value") ){
+				let item = {};
+				item.key = key;
+				item.value = (input[key] === 'no data')? input[key]:
+					input[key] + 
+					(input.exponent? ` 10^${input.exponent}`: '') +
+					(input.unit? ` ${input.unit}`: '');
+				output.push(item);
+			}
 		}
+		return output;
+	}
+	else {
+		const output = {};
+		output.type = isContaneConstants(input)? "constants": "categories";
+		output.names = [];
+		for(let key in input){ output.names.push(key);}	
 		return output;
 	}
 };
