@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<pre id="view"></pre>
+
+
+<script>"use strict" 
+/*############################################################*/
+const pattern = /(?:(_|\^)(.+?)(?=(?:$|_|\^|\s))|(.+?)(?=(?:$|_|\^)))/g; let res;
+for(let i = 0; i < 10; i++){ 
+	if( (res = pattern.exec('6.674 08(31) 10^-11 E_ht m^3 kg^-1 s^-2') ) === null){ break;}
+	console.log(res);
+}
+/*############################################################*/
+</script>
+</body>
+</html>
