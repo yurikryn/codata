@@ -1,15 +1,20 @@
-let http = require('http');
+let express = require('express');
+var bodyParser = require('body-parser')
 let url = require('url');
 let codata = require('./codata');
 let codataMethods = require('./codataMethods');
 
-http.createServer(function (req, res) {
-	//res.writeHead( 200, { 'Access-Control-Allow-Origin' : '*' } );
+let app = express();
+app.use(bodyParser.json());
+{
+let books = {};
+
+app
+.get('/api/codata/*', function (req, res) {
 	const urlObject = url.parse(req.url, true);
 	const adressArray = urlObject.pathname
 		.replace(/^(?:\/)?/,``).replace(/(?:\/)?$/,``).split(/\//);
-    if(adressArray[0] !== `api` || adressArray[1] !== `codata`){res.write(`Bad enter`);}	
-	else {
+		
 		let obj = codata.object;
 		for(let i = 2; i < adressArray.length; i++){
 			const name = decodeURIComponent(adressArray[i]);
@@ -19,9 +24,55 @@ http.createServer(function (req, res) {
 			}
 		}
 		res.write(`${codataMethods.JSONstringify(codataMethods.content(obj), 1)}`);
-	};
+		res.end();
+})
+
+.get('/api/book', function(req, res) {
+	res.write("\n" + JSON.stringify(books,null, 2) + "\n");
 	res.end();
-}).listen(8080);
+})
+
+.post('/api/book', function(req, res) {
+	let book = req.body;
+	if (!book.id) {
+		res.status(400);
+		res.send('book.id is required\n');
+	} else if(books[book.id]){
+		res.status(409);
+		res.send('this book already exists\n');
+	}	else {
+		res.status(201);
+		let {id, ...bookContent} = book;
+		books[id] = bookContent;
+	}
+	res.end();
+})
+
+.get('/api/book/:bookId', function(req,res) {
+	let answer = books[req.params.bookId];
+	if(!answer){
+		res.status(404);
+		res.send('There is no such book\n');
+	} else{
+		res.write("\n" + JSON.stringify(answer,null, 2) + "\n");
+	}
+	res.end();
+})
+
+.delete('/api/book/:bookId', (req,res) => {
+	let answer = books[req.params.bookId];
+	if(!answer){
+		res.status(404);
+		res.send('There is no such book to delete\n');
+	} else{
+		delete books[req.params.bookId];
+	}
+	res.end();
+})
+
+.listen(8080);
+
+}
 
 //api format to be /api/codata/UNIVRESAL/... --- done
 //create mobile client --- done
