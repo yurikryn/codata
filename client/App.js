@@ -13,7 +13,7 @@ const AppNavigator = createStackNavigator(
 	{
 		initialRouteName: "Selector",
 		initialRouteParams: {
-			adress: 'http://192.168.1.5:8080/api/codata',
+			adress: 'http://192.168.1.211:8080/api/codata',
 			title: 'CODATA constants'
 		},
 		defaultNavigationOptions: {
