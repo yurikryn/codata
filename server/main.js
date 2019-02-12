@@ -1,11 +1,10 @@
 let express = require('express');
-var bodyParser = require('body-parser')
 let url = require('url');
 let codata = require('./codata');
 let codataMethods = require('./codataMethods');
 
 let app = express();
-app.use(bodyParser.json());
+app.use(express.json());
 {
 let books = {};
 
