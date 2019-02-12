@@ -7,6 +7,7 @@ let app = express();
 app.use(express.json());
 {
 let books = {};
+let nextBookId = 0;
 
 app
 .get('/api/codata/*', function (req, res) {
@@ -33,16 +34,15 @@ app
 
 .post('/api/book', function(req, res) {
 	let book = req.body;
-	if (!book.id) {
+	if (!book.title || !book.author) {
 		res.status(400);
-		res.send('book.id is required\n');
-	} else if(books[book.id]){
-		res.status(409);
-		res.send('this book already exists\n');
-	}	else {
+		res.send('book.title and book.author are required\n');
+	} else {
 		res.status(201);
+		book.id = nextBookId++;
 		let {id, ...bookContent} = book;
 		books[id] = bookContent;
+		res.location(`/api/book/${book.id}`)
 	}
 	res.end();
 })
