@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button id="save-button">Save to file</button>
+<a id="save-anchor" hidden></a>
+<pre id="view"></pre>
+
+<script src="codata_object.js"></script>
+<script>"use strict"
+
+function compareFunc(a,b){
+	const categoryRank = {
+		"UNIVERSAL"			: 0,
+		"ELECTROMAGNETIC"	: 1,
+		"General"			: 2,
+		"Electroweak"		: 3,
+		"Electron"			: 4,
+		"Muon"				: 5,
+		"Tau"				: 6,
+		"Proton"			: 7,
+		"Neutron"			: 8,
+		"Deuteron"			: 9,
+		"Triton"			: 10,
+		"Helion"			: 11,
+		"Alpha particle"	: 12,
+		"PHYSICOCHEMICAL"	: 13,
+		"X-RAY VALUES"		: 14,
+		"CONVERSION FACTORS": 15,
+		"NON-SI UNITS"		: 16,
+		"ADOPTED VALUES"	: 17
+	}
+	if(categoryRank[a.category] - categoryRank[b.category] > 0){ return 1;}
+	else if(categoryRank[a.category] - categoryRank[b.category] < 0){ return -1;}
+	else if(a.name > b.name){ return 1;}
+	else if(a.name < b.name){ return -1;}
+	else{console.log("double names!!!")}
+}
+codataObject.sort(compareFunc);
+</script>
+<script src="help_scripts/view_codata_object.js"></script>
+<script src="help_scripts/save_codata_object.js"></script>
+</body>
+</html>
