@@ -358,12 +358,12 @@ let codataObject = [
 		"category": "General",
 		"name": "Bohr radius",
 		"unit": "m",
-		"exponent": "-10",
-		"value2014": "0.529 177 210 67(12)",
-		"value2010": "0.529 177 210 92(17)",
-		"value2006": "0.529 177 208 59(36)",
-		"value2002": "0.529 177 2108(18)",
-		"value1998": "0.529 177 2083(19)"
+		"exponent": "-11",
+		"value2014": "5.291 772 1067(12)",
+		"value2010": "5.291 772 1092(17)",
+		"value2006": "5.291 772 0859(36)",
+		"value2002": "5.291 772 108(18)",
+		"value1998": "5.291 772 083(19)"
 	},
 	{
 		"category": "General",
@@ -918,12 +918,12 @@ let codataObject = [
 		"category": "Muon",
 		"name": "muon molar mass",
 		"unit": "kg mol^-1",
-		"exponent": "-3",
-		"value2014": "0.113 428 9257(25)",
-		"value2010": "0.113 428 9267(29)",
-		"value2006": "0.113 428 9256(29)",
-		"value2002": "0.113 428 9264(30)",
-		"value1998": "0.113 428 9168(34)"
+		"exponent": "-4",
+		"value2014": "1.134 289 257(25)",
+		"value2010": "1.134 289 267(29)",
+		"value2006": "1.134 289 256(29)",
+		"value2002": "1.134 289 264(30)",
+		"value1998": "1.134 289 168(34)"
 	},
 	{
 		"category": "Muon",
@@ -1242,11 +1242,11 @@ let codataObject = [
 		"category": "Proton",
 		"name": "proton rms charge radius",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "0.8751(61)",
-		"value2010": "0.8775(51)",
-		"value2006": "0.8768(69)",
-		"value2002": "0.8750(68)",
+		"exponent": "-16",
+		"value2014": "8.751(61)",
+		"value2010": "8.775(51)",
+		"value2006": "8.768(69)",
+		"value2002": "8.750(68)",
 		"value1998": "no data"
 	},
 	{
@@ -1562,11 +1562,12 @@ let codataObject = [
 		"category": "Neutron",
 		"name": "neutron-proton mass difference in u",
 		"unit": "u",
-		"value2014": "0.001 388 449 00(51)",
-		"value2010": "0.001 388 449 19(45)",
-		"value2006": "0.001 388 449 20(46)",
-		"value2002": "0.001 388 448 72(58)",
-		"value1998": "0.001 388 448 89(58)"
+		"exponent": "-3",
+		"value2014": "1.388 449 00(51)",
+		"value2010": "1.388 449 19(45)",
+		"value2006": "1.388 449 20(46)",
+		"value2002": "1.388 448 72(58)",
+		"value1998": "1.388 448 89(58)"
 	},
 	{
 		"category": "Neutron",
@@ -2387,45 +2388,45 @@ let codataObject = [
 		"category": "X-RAY VALUES",
 		"name": "lattice parameter of silicon",
 		"unit": "m",
-		"exponent": "-12",
-		"value2014": "543.102 0504(89)",
-		"value2010": "543.102 0504(89)",
-		"value2006": "543.102 064(14)",
-		"value2002": "543.102 122(20)",
-		"value1998": "543.102 088(16)"
+		"exponent": "-10",
+		"value2014": "5.431 020 504(89)",
+		"value2010": "5.431 020 504(89)",
+		"value2006": "5.431 020 64(14)",
+		"value2002": "5.431 021 22(20)",
+		"value1998": "5.431 020 88(16)"
 	},
 	{
 		"category": "X-RAY VALUES",
 		"name": "molar volume of silicon",
 		"unit": "m^3 mol^-1",
-		"exponent": "-6",
-		"value2014": "12.058 832 14(61)",
-		"value2010": "12.058 833 01(80)",
-		"value2006": "12.058 8349(11)",
-		"value2002": "12.058 8382(24)",
-		"value1998": "12.058 8369(14)"
+		"exponent": "-5",
+		"value2014": "1.205 883 214(61)",
+		"value2010": "1.205 883 301(80)",
+		"value2006": "1.205 883 49(11)",
+		"value2002": "1.205 883 82(24)",
+		"value1998": "1.205 883 69(14)"
 	},
 	{
 		"category": "X-RAY VALUES",
 		"name": "lattice spacing of ideal Si (220)",
 		"unit": "m",
-		"exponent": "-12",
-		"value2014": "192.015 5714(32)",
-		"value2010": "192.015 5714(32)",
-		"value2006": "192.015 5762(50)",
-		"value2002": "192.015 5965(70)",
-		"value1998": "192.015 5845(56)"
+		"exponent": "-10",
+		"value2014": "1.920 155 714(32)",
+		"value2010": "1.920 155 714(32)",
+		"value2006": "1.920 155 762(50)",
+		"value2002": "1.920 155 965(70)",
+		"value1998": "1.920 155 845(56)"
 	},
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "atomic mass unit-electron volt relationship",
 		"unit": "eV",
-		"exponent": "6",
-		"value2014": "931.494 0954(57)",
-		"value2010": "931.494 061(21)",
-		"value2006": "931.494 028(23)",
-		"value2002": "931.494 043(80)",
-		"value1998": "931.494 013(37)"
+		"exponent": "8",
+		"value2014": "9.314 940 954(57)",
+		"value2010": "9.314 940 61(21)",
+		"value2006": "9.314 940 28(23)",
+		"value2002": "9.314 940 43(80)",
+		"value1998": "9.314 940 13(37)"
 	},
 	{
 		"category": "CONVERSION FACTORS",
