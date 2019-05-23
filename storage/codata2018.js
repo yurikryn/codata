@@ -1,5 +1,5 @@
-const codata2018 = `
-alpha particle-electron mass ratio                          7294.299 541 42          0.000 000 24             
+const codata2018 = 
+`alpha particle-electron mass ratio                          7294.299 541 42          0.000 000 24             
 alpha particle mass                                         6.644 657 3357 e-27      0.000 000 0020 e-27      kg
 alpha particle mass energy equivalent                       5.971 920 1914 e-10      0.000 000 0018 e-10      J
 alpha particle mass energy equivalent in MeV                3727.379 4066            0.000 0011               MeV
