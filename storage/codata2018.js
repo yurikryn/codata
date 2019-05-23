@@ -1,3 +1,4 @@
+const codata2018 = `
 alpha particle-electron mass ratio                          7294.299 541 42          0.000 000 24             
 alpha particle mass                                         6.644 657 3357 e-27      0.000 000 0020 e-27      kg
 alpha particle mass energy equivalent                       5.971 920 1914 e-10      0.000 000 0018 e-10      J
@@ -350,4 +351,4 @@ von Klitzing constant                                       25 812.807 45...    
 weak mixing angle                                           0.222 90                 0.000 30                 
 Wien frequency displacement law constant                    5.878 925 757... e10     (exact)                  Hz K^-1
 Wien wavelength displacement law constant                   2.897 771 955... e-3     (exact)                  m K
-W to Z mass ratio                                           0.881 53                 0.000 17                 
+W to Z mass ratio                                           0.881 53                 0.000 17                 `

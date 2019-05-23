@@ -5,17 +5,19 @@
 <a id="save-anchor" hidden></a>
 <pre id="view"></pre>
 
-<!--<script src="codata2018.js"></script>-->
+<script src="codata2018.js"></script>
 <script src="codata_object.js"></script>
 <script>"use strict" 
 /*###############################################################################################################################################################################*/
 const pattern = /^([^*].*?)(?:\x20{2,})(-?\d[.\d\x20]*?)(?:\x20e(-?\d+))?(?:\x20{2,})(?:\(exact\)|[.0\x20]*([1-9]\d*))(?:\x20e(-?\d+))?(?:\x20{2,})(.*)$/gm;
 for(let i = 0; i < 400; i++){
 	let res; 
-	if(( res = pattern.exec(window.codata2018) ) === null){ break;}
-	if( res[1] !== codataObject[i].name){console.log(codataObject[i].name);break;}
+	if(( res = pattern.exec(codata2018) ) === null){ break;}
+	console.dir(res);
+	console.dir(i + 2);
+	// if( res[1] !== codataObject[i].name){console.log(codataObject[i].name);break;}
 	
-	codataObject[i].value2018 = res[2] + ((res[4] === undefined)? "": "(" + res[4] + ")");
+	// codataObject[i].value2018 = res[2] + ((res[4] === undefined)? "": "(" + res[4] + ")");
 	
 }
 /*###############################################################################################################################################################################*/
