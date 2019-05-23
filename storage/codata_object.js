@@ -578,12 +578,12 @@ let codataObject = [
 		"category": "Electron",
 		"name": "electron mag. mom.",
 		"unit": "J T^-1",
-		"exponent": "-26",
-		"value2014": "-928.476 4620(57)",
-		"value2010": "-928.476 430(21)",
-		"value2006": "-928.476 377(23)",
-		"value2002": "-928.476 412(80)",
-		"value1998": "-928.476 362(37)"
+		"exponent": "-24",
+		"value2014": "-9.284 764 620(57)",
+		"value2010": "-9.284 764 30(21)",
+		"value2006": "-9.284 763 77(23)",
+		"value2002": "-9.284 764 12(80)",
+		"value1998": "-9.284 763 62(37)"
 	},
 	{
 		"category": "Electron",
@@ -805,12 +805,12 @@ let codataObject = [
 		"category": "Muon",
 		"name": "muon Compton wavelength",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "11.734 441 11(26)",
-		"value2010": "11.734 441 03(30)",
-		"value2006": "11.734 441 04(30)",
-		"value2002": "11.734 441 05(30)",
-		"value1998": "11.734 441 97(35)"
+		"exponent": "-14",
+		"value2014": "1.173 444 111(26)",
+		"value2010": "1.173 444 103(30)",
+		"value2006": "1.173 444 104(30)",
+		"value2002": "1.173 444 105(30)",
+		"value1998": "1.173 444 197(35)"
 	},
 	{
 		"category": "Muon",
@@ -975,23 +975,23 @@ let codataObject = [
 		"category": "Tau",
 		"name": "tau Compton wavelength",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "0.697 787(63)",
-		"value2010": "0.697 787(63)",
-		"value2006": "0.697 72(11)",
-		"value2002": "0.697 72(11)",
-		"value1998": "0.697 70(11)"
+		"exponent": "-16",
+		"value2014": "6.977 87(63)",
+		"value2010": "6.977 87(63)",
+		"value2006": "6.9772(11)",
+		"value2002": "6.9772(11)",
+		"value1998": "6.9770(11)"
 	},
 	{
 		"category": "Tau",
 		"name": "reduced tau Compton wavelength",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "0.111 056(10)",
-		"value2010": "0.111 056(10)",
-		"value2006": "0.111 046(18)",
-		"value2002": "0.111 046(18)",
-		"value1998": "0.111 042(18)"
+		"exponent": "-16",
+		"value2014": "1.110 56(10)",
+		"value2010": "1.110 56(10)",
+		"value2006": "1.110 46(18)",
+		"value2002": "1.110 46(18)",
+		"value1998": "1.110 42(18)"
 	},
 	{
 		"category": "Tau",
@@ -1097,12 +1097,12 @@ let codataObject = [
 		"category": "Proton",
 		"name": "reduced proton Compton wavelength",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "0.210 308 910 109(97)",
-		"value2010": "0.210 308 910 47(15)",
-		"value2006": "0.210 308 908 61(30)",
-		"value2002": "0.210 308 9104(14)",
-		"value1998": "0.210 308 9089(16)"
+		"exponent": "-16",
+		"value2014": "2.103 089 101 09(97)",
+		"value2010": "2.103 089 1047(15)",
+		"value2006": "2.103 089 0861(30)",
+		"value2002": "2.103 089 104(14)",
+		"value1998": "2.103 089 089(16)"
 	},
 	{
 		"category": "Proton",
@@ -1178,12 +1178,12 @@ let codataObject = [
 	{
 		"category": "Proton",
 		"name": "proton mag. shielding correction",
-		"exponent": "-6",
-		"value2014": "25.691(11)",
-		"value2010": "25.694(14)",
-		"value2006": "25.694(14)",
-		"value2002": "25.689(15)",
-		"value1998": "25.687(15)"
+		"exponent": "-5",
+		"value2014": "2.5691(11)",
+		"value2010": "2.5694(14)",
+		"value2006": "2.5694(14)",
+		"value2002": "2.5689(15)",
+		"value1998": "2.5687(15)"
 	},
 	{
 		"category": "Proton",
@@ -1360,12 +1360,12 @@ let codataObject = [
 		"category": "Neutron",
 		"name": "reduced neutron Compton wavelength",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "0.210 019 415 36(14)",
-		"value2010": "0.210 019 415 68(17)",
-		"value2006": "0.210 019 413 82(31)",
-		"value2002": "0.210 019 4157(14)",
-		"value1998": "0.210 019 4142(16)"
+		"exponent": "-16",
+		"value2014": "2.100 194 1536(14)",
+		"value2010": "2.100 194 1568(17)",
+		"value2006": "2.100 194 1382(31)",
+		"value2002": "2.100 194 157(14)",
+		"value1998": "2.100 194 142(16)"
 	},
 	{
 		"category": "Neutron",
@@ -1401,12 +1401,12 @@ let codataObject = [
 		"category": "Neutron",
 		"name": "neutron mag. mom.",
 		"unit": "J T^-1",
-		"exponent": "-26",
-		"value2014": "-0.966 236 50(23)",
-		"value2010": "-0.966 236 47(23)",
-		"value2006": "-0.966 236 41(23)",
-		"value2002": "-0.966 236 45(24)",
-		"value1998": "-0.966 236 40(23)"
+		"exponent": "-27",
+		"value2014": "-9.662 3650(23)",
+		"value2010": "-9.662 3647(23)",
+		"value2006": "-9.662 3641(23)",
+		"value2002": "-9.662 3645(24)",
+		"value1998": "-9.662 3640(23)"
 	},
 	{
 		"category": "Neutron",
@@ -1600,22 +1600,22 @@ let codataObject = [
 		"category": "Deuteron",
 		"name": "deuteron mag. mom.",
 		"unit": "J T^-1",
-		"exponent": "-26",
-		"value2014": "0.433 073 5040(36)",
-		"value2010": "0.433 073 489(10)",
-		"value2006": "0.433 073 465(11)",
-		"value2002": "0.433 073 482(38)",
-		"value1998": "0.433 073 457(18)"
+		"exponent": "-27",
+		"value2014": "4.330 735 040(36)",
+		"value2010": "4.330 734 89(10)",
+		"value2006": "4.330 734 65(11)",
+		"value2002": "4.330 734 82(38)",
+		"value1998": "4.330 734 57(18)"
 	},
 	{
 		"category": "Deuteron",
 		"name": "deuteron mag. mom. to Bohr magneton ratio",
-		"exponent": "-3",
-		"value2014": "0.466 975 4554(26)",
-		"value2010": "0.466 975 4556(39)",
-		"value2006": "0.466 975 4556(39)",
-		"value2002": "0.466 975 4567(50)",
-		"value1998": "0.466 975 4556(50)"
+		"exponent": "-4",
+		"value2014": "4.669 754 554(26)",
+		"value2010": "4.669 754 556(39)",
+		"value2006": "4.669 754 556(39)",
+		"value2002": "4.669 754 567(50)",
+		"value1998": "4.669 754 556(50)"
 	},
 	{
 		"category": "Deuteron",
@@ -3187,12 +3187,12 @@ let codataObject = [
 		"category": "NON-SI UNITS",
 		"name": "atomic unit of length",
 		"unit": "m",
-		"exponent": "-10",
-		"value2014": "0.529 177 210 67(12)",
-		"value2010": "0.529 177 210 92(17)",
-		"value2006": "0.529 177 208 59(36)",
-		"value2002": "0.529 177 2108(18)",
-		"value1998": "0.529 177 2083(19)"
+		"exponent": "-11",
+		"value2014": "5.291 772 1067(12)",
+		"value2010": "5.291 772 1092(17)",
+		"value2006": "5.291 772 0859(36)",
+		"value2002": "5.291 772 108(18)",
+		"value1998": "5.291 772 083(19)"
 	},
 	{
 		"category": "NON-SI UNITS",
@@ -3340,12 +3340,12 @@ let codataObject = [
 		"category": "NON-SI UNITS",
 		"name": "natural unit of length",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "386.159 267 64(18)",
-		"value2010": "386.159 268 00(25)",
-		"value2006": "386.159 264 59(53)",
-		"value2002": "386.159 2678(26)",
-		"value1998": "386.159 2642(28)"
+		"exponent": "-13",
+		"value2014": "3.861 592 6764(18)",
+		"value2010": "3.861 592 6800(25)",
+		"value2006": "3.861 592 6459(53)",
+		"value2002": "3.861 592 678(26)",
+		"value1998": "3.861 592 642(28)"
 	},
 	{
 		"category": "NON-SI UNITS",
