@@ -241,10 +241,10 @@ neutron mass in u                                           1.008 664 915 95    
 neutron molar mass                                          1.008 664 915 95 e-3     0.000 000 000 49 e-3     kg mol^-1
 neutron-muon mass ratio                                     8.892 484 06             0.000 000 20             
 neutron-proton mag. mom. ratio                              -0.684 979 34            0.000 000 16             
-neutron-proton mass difference                              2.305 574 35 e-30        0.000 000 82 e-30        
-neutron-proton mass difference energy equivalent            2.072 146 89 e-13        0.000 000 74 e-13        
-neutron-proton mass difference energy equivalent in MeV     1.293 332 36             0.000 000 46             
-neutron-proton mass difference in u                         1.388 449 33 e-3         0.000 000 49 e-3         
+neutron-proton mass difference                              2.305 574 35 e-30        0.000 000 82 e-30        kg
+neutron-proton mass difference energy equivalent            2.072 146 89 e-13        0.000 000 74 e-13        J
+neutron-proton mass difference energy equivalent in MeV     1.293 332 36             0.000 000 46             MeV
+neutron-proton mass difference in u                         1.388 449 33 e-3         0.000 000 49 e-3         u
 neutron-proton mass ratio                                   1.001 378 419 31         0.000 000 000 49         
 neutron relative atomic mass                                1.008 664 915 95         0.000 000 000 49         
 neutron-tau mass ratio                                      0.528 779                0.000 036                

@@ -24,7 +24,7 @@ let codataObject = [
 	{
 		"category": "UNIVERSAL",
 		"name": "Planck constant",
-		"unit": "J s",
+		"unit": "J Hz^-1",
 		"exponent": "-34",
 		"value2014": "6.626 070 040(81)",
 		"value2010": "6.626 069 57(29)",
@@ -35,7 +35,7 @@ let codataObject = [
 	{
 		"category": "UNIVERSAL",
 		"name": "Planck constant in eV s",
-		"unit": "eV s",
+		"unit": "eV Hz^-1",
 		"exponent": "-15",
 		"value2014": "4.135 667 662(25)",
 		"value2010": "4.135 667 516(91)",
@@ -45,7 +45,7 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
-		"name": "Planck constant over 2 pi",
+		"name": "reduced Planck constant",
 		"unit": "J s",
 		"exponent": "-34",
 		"value2014": "1.054 571 800(13)",
@@ -56,7 +56,7 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
-		"name": "Planck constant over 2 pi in eV s",
+		"name": "reduced Planck constant in eV s",
 		"unit": "eV s",
 		"exponent": "-16",
 		"value2014": "6.582 119 514(40)",
@@ -67,7 +67,7 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
-		"name": "Planck constant over 2 pi times c in MeV fm",
+		"name": "reduced Planck constant times c in MeV fm",
 		"unit": "MeV fm",
 		"value2014": "197.326 9788(12)",
 		"value2010": "197.326 9718(44)",
@@ -176,23 +176,23 @@ let codataObject = [
 		"category": "ELECTROMAGNETIC",
 		"name": "Bohr magneton",
 		"unit": "J T^-1",
-		"exponent": "-26",
-		"value2014": "927.400 9994(57)",
-		"value2010": "927.400 968(20)",
-		"value2006": "927.400 915(23)",
-		"value2002": "927.400 949(80)",
-		"value1998": "927.400 899(37)"
+		"exponent": "-24",
+		"value2014": "9.274 009 994(57)",
+		"value2010": "9.274 009 68(20)",
+		"value2006": "9.274 009 15(23)",
+		"value2002": "9.274 009 49(80)",
+		"value1998": "9.274 008 99(37)"
 	},
 	{
 		"category": "ELECTROMAGNETIC",
 		"name": "Bohr magneton in Hz/T",
 		"unit": "Hz T^-1",
-		"exponent": "9",
-		"value2014": "13.996 245 042(86)",
-		"value2010": "13.996 245 55(31)",
-		"value2006": "13.996 246 04(35)",
-		"value2002": "13.996 2458(12)",
-		"value1998": "13.996 246 24(56)"
+		"exponent": "10",
+		"value2014": "1.399 624 5042(86)",
+		"value2010": "1.399 624 555(31)",
+		"value2006": "1.399 624 604(35)",
+		"value2002": "1.399 624 58(12)",
+		"value1998": "1 399 624 624(56)"
 	},
 	{
 		"category": "ELECTROMAGNETIC",
@@ -502,25 +502,25 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "Compton wavelength over 2 pi",
+		"name": "reduced Compton wavelength",
 		"unit": "m",
-		"exponent": "-15",
-		"value2014": "386.159 267 64(18)",
-		"value2010": "386.159 268 00(25)",
-		"value2006": "386.159 264 59(53)",
-		"value2002": "386.159 2678(26)",
-		"value1998": "386.159 2642(28)"
+		"exponent": "-13",
+		"value2014": "3.861 592 6764(18)",
+		"value2010": "3.861 592 6800(25)",
+		"value2006": "3.861 592 6459(53)",
+		"value2002": "3.861 592 678(26)",
+		"value1998": "3.861 592 642(28)"
 	},
 	{
 		"category": "Electron",
 		"name": "Thomson cross section",
 		"unit": "m^2",
-		"exponent": "-28",
-		"value2014": "0.665 245 871 58(91)",
-		"value2010": "0.665 245 8734(13)",
-		"value2006": "0.665 245 8558(27)",
-		"value2002": "0.665 245 873(13)",
-		"value1998": "0.665 245 854(15)"
+		"exponent": "-29",
+		"value2014": "6.652 458 7158(91)",
+		"value2010": "6.652 458 734(13)",
+		"value2006": "6.652 458 558(27)",
+		"value2002": "6.652 458 73(13)",
+		"value1998": "6.652 458 54(15)"
 	},
 	{
 		"category": "Electron",
@@ -555,7 +555,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron gyromagnetic ratio",
+		"name": "electron gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "11",
 		"value2014": "1.760 859 644(11)",
@@ -566,7 +566,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron gyromagnetic ratio over 2 pi",
+		"name": "electron gyromag. ratio over 2 pi",
 		"unit": "MHz T^-1",
 		"value2014": "28 024.951 64(17)",
 		"value2010": "28 024.952 66(62)",
@@ -576,7 +576,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron magnetic moment",
+		"name": "electron mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "-928.476 4620(57)",
@@ -587,7 +587,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron magnetic moment anomaly",
+		"name": "electron mag. mom. anomaly",
 		"exponent": "-3",
 		"value2014": "1.159 652 180 91(26)",
 		"value2010": "1.159 652 180 76(27)",
@@ -597,7 +597,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron magnetic moment to Bohr magneton ratio",
+		"name": "electron mag. mom. to Bohr magneton ratio",
 		"value2014": "-1.001 159 652 180 91(26)",
 		"value2010": "-1.001 159 652 180 76(27)",
 		"value2006": "-1.001 159 652 181 11(74)",
@@ -606,7 +606,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron magnetic moment to nuclear magneton ratio",
+		"name": "electron mag. mom. to nuclear magneton ratio",
 		"value2014": "-1838.281 972 34(17)",
 		"value2010": "-1838.281 970 90(75)",
 		"value2006": "-1838.281 970 92(80)",
@@ -679,7 +679,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron to shielded helion magnetic moment ratio",
+		"name": "electron to shielded helion mag. mom. ratio",
 		"value2014": "864.058 257(10)",
 		"value2010": "864.058 257(10)",
 		"value2006": "864.058 257(10)",
@@ -688,7 +688,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron to shielded proton magnetic moment ratio",
+		"name": "electron to shielded proton mag. mom. ratio",
 		"value2014": "-658.227 5971(72)",
 		"value2010": "-658.227 5971(72)",
 		"value2006": "-658.227 5971(72)",
@@ -697,7 +697,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron-deuteron magnetic moment ratio",
+		"name": "electron-deuteron mag. mom. ratio",
 		"value2014": "-2143.923 499(12)",
 		"value2010": "-2143.923 498(18)",
 		"value2006": "-2143.923 498(18)",
@@ -726,7 +726,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron-muon magnetic moment ratio",
+		"name": "electron-muon mag. mom. ratio",
 		"value2014": "206.766 9880(46)",
 		"value2010": "206.766 9896(52)",
 		"value2006": "206.766 9877(52)",
@@ -745,7 +745,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron-neutron magnetic moment ratio",
+		"name": "electron-neutron mag. mom. ratio",
 		"value2014": "960.920 50(23)",
 		"value2010": "960.920 50(23)",
 		"value2006": "960.920 50(23)",
@@ -764,7 +764,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron-proton magnetic moment ratio",
+		"name": "electron-proton mag. mom. ratio",
 		"value2014": "-658.210 6866(20)",
 		"value2010": "-658.210 6848(54)",
 		"value2006": "-658.210 6848(54)",
@@ -814,7 +814,7 @@ let codataObject = [
 	},
 	{
 		"category": "Muon",
-		"name": "muon Compton wavelength over 2 pi",
+		"name": "reduced muon Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
 		"value2014": "1.867 594 308(42)",
@@ -834,7 +834,7 @@ let codataObject = [
 	},
 	{
 		"category": "Muon",
-		"name": "muon magnetic moment",
+		"name": "muon mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "-4.490 448 26(10)",
@@ -845,7 +845,7 @@ let codataObject = [
 	},
 	{
 		"category": "Muon",
-		"name": "muon magnetic moment anomaly",
+		"name": "muon mag. mom. anomaly",
 		"exponent": "-3",
 		"value2014": "1.165 920 89(63)",
 		"value2010": "1.165 920 91(63)",
@@ -855,7 +855,7 @@ let codataObject = [
 	},
 	{
 		"category": "Muon",
-		"name": "muon magnetic moment to Bohr magneton ratio",
+		"name": "muon mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "-4.841 970 48(11)",
 		"value2010": "-4.841 970 44(12)",
@@ -865,7 +865,7 @@ let codataObject = [
 	},
 	{
 		"category": "Muon",
-		"name": "muon magnetic moment to nuclear magneton ratio",
+		"name": "muon mag. mom. to nuclear magneton ratio",
 		"value2014": "-8.890 597 05(20)",
 		"value2010": "-8.890 596 97(22)",
 		"value2006": "-8.890 597 05(23)",
@@ -945,7 +945,7 @@ let codataObject = [
 	},
 	{
 		"category": "Muon",
-		"name": "muon-proton magnetic moment ratio",
+		"name": "muon-proton mag. mom. ratio",
 		"value2014": "-3.183 345 142(71)",
 		"value2010": "-3.183 345 107(84)",
 		"value2006": "-3.183 345 137(85)",
@@ -984,7 +984,7 @@ let codataObject = [
 	},
 	{
 		"category": "Tau",
-		"name": "tau Compton wavelength over 2 pi",
+		"name": "reduced tau Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
 		"value2014": "0.111 056(10)",
@@ -1095,7 +1095,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton Compton wavelength over 2 pi",
+		"name": "reduced proton Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
 		"value2014": "0.210 308 910 109(97)",
@@ -1126,7 +1126,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton gyromagnetic ratio",
+		"name": "proton gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
 		"value2014": "2.675 221 900(18)",
@@ -1137,7 +1137,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton gyromagnetic ratio over 2 pi",
+		"name": "proton gyromag. ratio over 2 pi",
 		"unit": "MHz T^-1",
 		"value2014": "42.577 478 92(29)",
 		"value2010": "42.577 4806(10)",
@@ -1147,7 +1147,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton magnetic moment",
+		"name": "proton mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "1.410 606 7873(97)",
@@ -1158,7 +1158,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton magnetic moment to Bohr magneton ratio",
+		"name": "proton mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "1.521 032 2053(46)",
 		"value2010": "1.521 032 210(12)",
@@ -1168,7 +1168,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton magnetic moment to nuclear magneton ratio",
+		"name": "proton mag. mom. to nuclear magneton ratio",
 		"value2014": "2.792 847 3508(85)",
 		"value2010": "2.792 847 356(23)",
 		"value2006": "2.792 847 356(23)",
@@ -1177,7 +1177,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton magnetic shielding correction",
+		"name": "proton mag. shielding correction",
 		"exponent": "-6",
 		"value2014": "25.691(11)",
 		"value2010": "25.694(14)",
@@ -1269,7 +1269,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton-neutron magnetic moment ratio",
+		"name": "proton-neutron mag. mom. ratio",
 		"value2014": "-1.459 898 05(34)",
 		"value2010": "-1.459 898 06(34)",
 		"value2006": "-1.459 898 06(34)",
@@ -1296,7 +1296,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "shielded proton gyromagnetic ratio",
+		"name": "shielded proton gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
 		"value2014": "2.675 153 171(33)",
@@ -1307,7 +1307,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "shielded proton gyromagnetic ratio over 2 pi",
+		"name": "shielded proton gyromag. ratio over 2 pi",
 		"unit": "MHz T^-1",
 		"value2014": "42.576 385 07(53)",
 		"value2010": "42.576 3866(10)",
@@ -1317,7 +1317,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "shielded proton magnetic moment",
+		"name": "shielded proton mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "1.410 570 547(18)",
@@ -1328,7 +1328,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "shielded proton magnetic moment to Bohr magneton ratio",
+		"name": "shielded proton mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "1.520 993 128(17)",
 		"value2010": "1.520 993 128(17)",
@@ -1338,7 +1338,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "shielded proton magnetic moment to nuclear magneton ratio",
+		"name": "shielded proton mag. mom. to nuclear magneton ratio",
 		"value2014": "2.792 775 600(30)",
 		"value2010": "2.792 775 598(30)",
 		"value2006": "2.792 775 598(30)",
@@ -1358,7 +1358,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron Compton wavelength over 2 pi",
+		"name": "reduced neutron Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
 		"value2014": "0.210 019 415 36(14)",
@@ -1378,7 +1378,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron gyromagnetic ratio",
+		"name": "neutron gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
 		"value2014": "1.832 471 72(43)",
@@ -1389,7 +1389,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron gyromagnetic ratio over 2 pi",
+		"name": "neutron gyromag. ratio over 2 pi",
 		"unit": "MHz T^-1",
 		"value2014": "29.164 6933(69)",
 		"value2010": "29.164 6943(69)",
@@ -1399,7 +1399,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron magnetic moment",
+		"name": "neutron mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "-0.966 236 50(23)",
@@ -1410,7 +1410,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron magnetic moment to Bohr magneton ratio",
+		"name": "neutron mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "-1.041 875 63(25)",
 		"value2010": "-1.041 875 63(25)",
@@ -1420,7 +1420,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron magnetic moment to nuclear magneton ratio",
+		"name": "neutron mag. mom. to nuclear magneton ratio",
 		"value2014": "-1.913 042 73(45)",
 		"value2010": "-1.913 042 72(45)",
 		"value2006": "-1.913 042 73(45)",
@@ -1482,7 +1482,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron to shielded proton magnetic moment ratio",
+		"name": "neutron to shielded proton mag. mom. ratio",
 		"value2014": "-0.684 996 94(16)",
 		"value2010": "-0.684 996 94(16)",
 		"value2006": "-0.684 996 94(16)",
@@ -1491,7 +1491,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron-electron magnetic moment ratio",
+		"name": "neutron-electron mag. mom. ratio",
 		"exponent": "-3",
 		"value2014": "1.040 668 82(25)",
 		"value2010": "1.040 668 82(25)",
@@ -1519,7 +1519,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron-proton magnetic moment ratio",
+		"name": "neutron-proton mag. mom. ratio",
 		"value2014": "-0.684 979 34(16)",
 		"value2010": "-0.684 979 34(16)",
 		"value2006": "-0.684 979 34(16)",
@@ -1597,7 +1597,7 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
-		"name": "deuteron magnetic moment",
+		"name": "deuteron mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "0.433 073 5040(36)",
@@ -1608,7 +1608,7 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
-		"name": "deuteron magnetic moment to Bohr magneton ratio",
+		"name": "deuteron mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "0.466 975 4554(26)",
 		"value2010": "0.466 975 4556(39)",
@@ -1618,7 +1618,7 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
-		"name": "deuteron magnetic moment to nuclear magneton ratio",
+		"name": "deuteron mag. mom. to nuclear magneton ratio",
 		"value2014": "0.857 438 2311(48)",
 		"value2010": "0.857 438 2308(72)",
 		"value2006": "0.857 438 2308(72)",
@@ -1691,7 +1691,7 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
-		"name": "deuteron-electron magnetic moment ratio",
+		"name": "deuteron-electron mag. mom. ratio",
 		"exponent": "-4",
 		"value2014": "-4.664 345 535(26)",
 		"value2010": "-4.664 345 537(39)",
@@ -1710,7 +1710,7 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
-		"name": "deuteron-neutron magnetic moment ratio",
+		"name": "deuteron-neutron mag. mom. ratio",
 		"value2014": "-0.448 206 52(11)",
 		"value2010": "-0.448 206 52(11)",
 		"value2006": "-0.448 206 52(11)",
@@ -1719,7 +1719,7 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
-		"name": "deuteron-proton magnetic moment ratio",
+		"name": "deuteron-proton mag. mom. ratio",
 		"value2014": "0.307 012 2077(15)",
 		"value2010": "0.307 012 2070(24)",
 		"value2006": "0.307 012 2070(24)",
@@ -1746,7 +1746,7 @@ let codataObject = [
 	},
 	{
 		"category": "Triton",
-		"name": "triton magnetic moment",
+		"name": "triton mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "1.504 609 503(12)",
@@ -1757,7 +1757,7 @@ let codataObject = [
 	},
 	{
 		"category": "Triton",
-		"name": "triton magnetic moment to Bohr magneton ratio",
+		"name": "triton mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "1.622 393 6616(76)",
 		"value2010": "1.622 393 657(21)",
@@ -1767,7 +1767,7 @@ let codataObject = [
 	},
 	{
 		"category": "Triton",
-		"name": "triton magnetic moment to nuclear magneton ratio",
+		"name": "triton mag. mom. to nuclear magneton ratio",
 		"value2014": "2.978 962 460(14)",
 		"value2010": "2.978 962 448(38)",
 		"value2006": "2.978 962 448(38)",
@@ -1856,7 +1856,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "helion magnetic moment",
+		"name": "helion mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "-1.074 617 522(14)",
@@ -1867,7 +1867,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "helion magnetic moment to Bohr magneton ratio",
+		"name": "helion mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "-1.158 740 958(14)",
 		"value2010": "-1.158 740 958(14)",
@@ -1877,7 +1877,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "helion magnetic moment to nuclear magneton ratio",
+		"name": "helion mag. mom. to nuclear magneton ratio",
 		"value2014": "-2.127 625 308(25)",
 		"value2010": "-2.127 625 306(25)",
 		"value2006": "-2.127 625 306(25)",
@@ -1957,7 +1957,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion gyromagnetic ratio",
+		"name": "shielded helion gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
 		"value2014": "2.037 894 585(27)",
@@ -1968,7 +1968,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion gyromagnetic ratio over 2 pi",
+		"name": "shielded helion gyromag. ratio over 2 pi",
 		"unit": "MHz T^-1",
 		"value2014": "32.434 099 66(43)",
 		"value2010": "32.434 100 84(81)",
@@ -1978,7 +1978,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion magnetic moment",
+		"name": "shielded helion mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
 		"value2014": "-1.074 553 080(14)",
@@ -1989,7 +1989,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion magnetic moment to Bohr magneton ratio",
+		"name": "shielded helion mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2014": "-1.158 671 471(14)",
 		"value2010": "-1.158 671 471(14)",
@@ -1999,7 +1999,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion magnetic moment to nuclear magneton ratio",
+		"name": "shielded helion mag. mom. to nuclear magneton ratio",
 		"value2014": "-2.127 497 720(25)",
 		"value2010": "-2.127 497 718(25)",
 		"value2006": "-2.127 497 718(25)",
@@ -2008,7 +2008,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion to proton magnetic moment ratio",
+		"name": "shielded helion to proton mag. mom. ratio",
 		"value2014": "-0.761 766 5603(92)",
 		"value2010": "-0.761 766 558(11)",
 		"value2006": "-0.761 766 558(11)",
@@ -2017,7 +2017,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion to shielded proton magnetic moment ratio",
+		"name": "shielded helion to shielded proton mag. mom. ratio",
 		"value2014": "-0.761 786 1313(33)",
 		"value2010": "-0.761 786 1313(33)",
 		"value2006": "-0.761 786 1313(33)",
@@ -2289,7 +2289,7 @@ let codataObject = [
 	{
 		"category": "PHYSICOCHEMICAL",
 		"name": "molar Planck constant",
-		"unit": "J s mol^-1",
+		"unit": "J Hz^-1 mol^-1",
 		"exponent": "-10",
 		"value2014": "3.990 312 7110(18)",
 		"value2010": "3.990 312 7176(28)",
@@ -2407,7 +2407,7 @@ let codataObject = [
 	},
 	{
 		"category": "X-RAY VALUES",
-		"name": "{220} lattice spacing of silicon",
+		"name": "lattice spacing of ideal Si (220)",
 		"unit": "m",
 		"exponent": "-12",
 		"value2014": "192.015 5714(32)",
@@ -3097,7 +3097,7 @@ let codataObject = [
 	},
 	{
 		"category": "NON-SI UNITS",
-		"name": "atomic unit of electric dipole moment",
+		"name": "atomic unit of electric dipole mom.",
 		"unit": "C m",
 		"exponent": "-30",
 		"value2014": "8.478 353 552(52)",
@@ -3151,7 +3151,7 @@ let codataObject = [
 	},
 	{
 		"category": "NON-SI UNITS",
-		"name": "atomic unit of electric quadrupole moment",
+		"name": "atomic unit of electric quadrupole mom.",
 		"unit": "C m^2",
 		"exponent": "-40",
 		"value2014": "4.486 551 484(28)",
@@ -3195,7 +3195,7 @@ let codataObject = [
 	},
 	{
 		"category": "NON-SI UNITS",
-		"name": "atomic unit of magnetic dipole moment",
+		"name": "atomic unit of mag. dipole mom.",
 		"unit": "J T^-1",
 		"exponent": "-23",
 		"value2014": "1.854 801 999(11)",
@@ -3206,7 +3206,7 @@ let codataObject = [
 	},
 	{
 		"category": "NON-SI UNITS",
-		"name": "atomic unit of magnetic flux density",
+		"name": "atomic unit of mag. flux density",
 		"unit": "T",
 		"exponent": "5",
 		"value2014": "2.350 517 550(14)",
