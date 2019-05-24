@@ -34,7 +34,7 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
-		"name": "Planck constant in eV s",
+		"name": "Planck constant in eV/Hz",
 		"unit": "eV Hz^-1",
 		"exponent": "-15",
 		"value2014": "4.135 667 662(25)",
@@ -142,7 +142,7 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
-		"name": "electric constant",
+		"name": "vacuum electric permittivity",
 		"unit": "F m^-1",
 		"exponent": "-12",
 		"value2014": "8.854 187 817...",
@@ -153,14 +153,14 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
-		"name": "magnetic constant",
+		"name": "vacuum mag. permeability",
 		"unit": "N A^-2",
-		"exponent": "-7",
-		"value2014": "12.566 370 614...",
-		"value2010": "12.566 370 614...",
-		"value2006": "12.566 370 614...",
-		"value2002": "12.566 370 614...",
-		"value1998": "12.566 370 614..."
+		"exponent": "-6",
+		"value2014": "1.256 637 0614...",
+		"value2010": "1.256 637 0614...",
+		"value2006": "1.256 637 0614...",
+		"value2002": "1.256 637 0614...",
+		"value1998": "1.256 637 0614..."
 	},
 	{
 		"category": "UNIVERSAL",
@@ -217,7 +217,7 @@ let codataObject = [
 	},
 	{
 		"category": "ELECTROMAGNETIC",
-		"name": "Bohr magneton in inverse meters per tesla",
+		"name": "Bohr magneton in inverse meter per tesla",
 		"unit": "m^-1 T^-1",
 		"value2014": "46.686 448 14(29)",
 		"value2010": "46.686 4498(10)",
@@ -260,14 +260,14 @@ let codataObject = [
 	},
 	{
 		"category": "ELECTROMAGNETIC",
-		"name": "elementary charge over h",
+		"name": "elementary charge over h-bar",
 		"unit": "A J^-1",
-		"exponent": "14",
-		"value2014": "2.417 989 262(15)",
-		"value2010": "2.417 989 348(53)",
-		"value2006": "2.417 989 454(60)",
-		"value2002": "2.417 989 40(21)",
-		"value1998": "2.417 989 491(95)"
+		"exponent": "15",
+		"value2014": "1.519 829 846 0088(90)",
+		"value2010": "1.519 829 846 0045(76)",
+		"value2006": "1.519 829 846 006(10)",
+		"value2002": "1.519 829 846 006(10)",
+		"value1998": "1.519 829 846 003(12)"
 	},
 	{
 		"category": "ELECTROMAGNETIC",
@@ -281,7 +281,7 @@ let codataObject = [
 	},
 	{
 		"category": "ELECTROMAGNETIC",
-		"name": "magnetic flux quantum",
+		"name": "mag. flux quantum",
 		"unit": "Wb",
 		"exponent": "-15",
 		"value2014": "2.067 833 831(13)",
@@ -335,7 +335,7 @@ let codataObject = [
 	},
 	{
 		"category": "ELECTROMAGNETIC",
-		"name": "nuclear magneton in inverse meters per tesla",
+		"name": "nuclear magneton in inverse meter per tesla",
 		"unit": "m^-1 T^-1",
 		"exponent": "-2",
 		"value2014": "2.542 623 432(16)",
@@ -566,7 +566,7 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
-		"name": "electron gyromag. ratio over 2 pi",
+		"name": "electron gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2014": "28 024.951 64(17)",
 		"value2010": "28 024.952 66(62)",
@@ -1017,7 +1017,7 @@ let codataObject = [
 	},
 	{
 		"category": "Tau",
-		"name": "tau mass energy equivalent in MeV",
+		"name": "tau energy equivalent",
 		"unit": "MeV",
 		"value2014": "1776.82(16)",
 		"value2010": "1776.82(16)",
@@ -1137,7 +1137,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "proton gyromag. ratio over 2 pi",
+		"name": "proton gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2014": "42.577 478 92(29)",
 		"value2010": "42.577 4806(10)",
@@ -1307,7 +1307,7 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
-		"name": "shielded proton gyromag. ratio over 2 pi",
+		"name": "shielded proton gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2014": "42.576 385 07(53)",
 		"value2010": "42.576 3866(10)",
@@ -1389,7 +1389,7 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
-		"name": "neutron gyromag. ratio over 2 pi",
+		"name": "neutron gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2014": "29.164 6933(69)",
 		"value2010": "29.164 6943(69)",
@@ -1969,7 +1969,7 @@ let codataObject = [
 	},
 	{
 		"category": "Helion",
-		"name": "shielded helion gyromag. ratio over 2 pi",
+		"name": "shielded helion gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2014": "32.434 099 66(43)",
 		"value2010": "32.434 100 84(81)",
@@ -2142,7 +2142,7 @@ let codataObject = [
 	},
 	{
 		"category": "PHYSICOCHEMICAL",
-		"name": "Boltzmann constant in inverse meters per kelvin",
+		"name": "Boltzmann constant in inverse meter per kelvin",
 		"unit": "m^-1 K^-1",
 		"value2014": "69.503 457(40)",
 		"value2010": "69.503 476(63)",
@@ -2297,16 +2297,6 @@ let codataObject = [
 		"value2006": "3.990 312 6821(57)",
 		"value2002": "3.990 312 716(27)",
 		"value1998": "3.990 312 689(30)"
-	},
-	{
-		"category": "PHYSICOCHEMICAL",
-		"name": "molar Planck constant times c",
-		"unit": "J m mol^-1",
-		"value2014": "0.119 626 565 582(54)",
-		"value2010": "0.119 626 565 779(84)",
-		"value2006": "0.119 626 564 72(17)",
-		"value2002": "0.119 626 565 72(80)",
-		"value1998": "0.119 626 564 92(91)"
 	},
 	{
 		"category": "PHYSICOCHEMICAL",
