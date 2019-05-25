@@ -4,7 +4,7 @@ alpha particle mass                                         6.644 657 3357 e-27 
 alpha particle mass energy equivalent                       5.971 920 1914 e-10      0.000 000 0018 e-10      J
 alpha particle mass energy equivalent in MeV                3727.379 4066            0.000 0011               MeV
 alpha particle mass in u                                    4.001 506 179 127        0.000 000 000 063        u
-alpha particle molar mass                                   4.001 506 179 127 e-3    0.000 000 000 063 e-3    kg mol^-1
+alpha particle molar mass                                   4.001 506 1778 e-3       0.000 000 0012 e-3       kg mol^-1
 alpha particle-proton mass ratio                            3.972 599 690 09         0.000 000 000 22         
 alpha particle relative atomic mass                         4.001 506 179 127        0.000 000 000 063        
 Angstrom star                                               1.000 014 95 e-10        0.000 000 90 e-10        m
@@ -76,7 +76,7 @@ deuteron mass                                               3.343 583 7724 e-27 
 deuteron mass energy equivalent                             3.005 063 231 02 e-10    0.000 000 000 91 e-10    J
 deuteron mass energy equivalent in MeV                      1875.612 942 57          0.000 000 57             MeV
 deuteron mass in u                                          2.013 553 212 745        0.000 000 000 040        u
-deuteron molar mass                                         2.013 553 212 745 e-3    0.000 000 000 040 e-3    kg mol^-1
+deuteron molar mass                                         2.013 553 212 02 e-3     0.000 000 000 60 e-3     kg mol^-1
 deuteron-neutron mag. mom. ratio                            -0.448 206 53            0.000 000 11             
 deuteron-proton mag. mom. ratio                             0.307 012 209 39         0.000 000 000 79         
 deuteron-proton mass ratio                                  1.999 007 501 39         0.000 000 000 11         
@@ -97,7 +97,7 @@ electron mass                                               9.109 383 7015 e-31 
 electron mass energy equivalent                             8.187 105 7769 e-14      0.000 000 0025 e-14      J
 electron mass energy equivalent in MeV                      0.510 998 950 00         0.000 000 000 15         MeV
 electron mass in u                                          5.485 799 090 65 e-4     0.000 000 000 16 e-4     u
-electron molar mass                                         5.485 799 090 65 e-7     0.000 000 000 16 e-7     kg mol^-1
+electron molar mass                                         5.485 799 0887 e-7       0.000 000 0017 e-7       kg mol^-1
 electron-muon mag. mom. ratio                               206.766 9883             0.000 0046               
 electron-muon mass ratio                                    4.836 331 69 e-3         0.000 000 11 e-3         
 electron-neutron mag. mom. ratio                            960.920 50               0.000 23                 
@@ -143,7 +143,7 @@ helion mass                                                 5.006 412 7796 e-27 
 helion mass energy equivalent                               4.499 539 4125 e-10      0.000 000 0014 e-10      J
 helion mass energy equivalent in MeV                        2808.391 607 43          0.000 000 85             MeV
 helion mass in u                                            3.014 932 247 175        0.000 000 000 097        u
-helion molar mass                                           3.014 932 247 175 e-3    0.000 000 000 097 e-3    kg mol^-1
+helion molar mass                                           3.014 932 246 14 e-3     0.000 000 000 90 e-3     kg mol^-1
 helion-proton mass ratio                                    2.993 152 671 67         0.000 000 000 13         
 helion relative atomic mass                                 3.014 932 247 175        0.000 000 000 097        
 helion shielding shift                                      5.996 743 e-5            0.000 010 e-5            
@@ -239,7 +239,7 @@ neutron mass                                                1.674 927 498 04 e-2
 neutron mass energy equivalent                              1.505 349 762 87 e-10    0.000 000 000 86 e-10    J
 neutron mass energy equivalent in MeV                       939.565 420 52           0.000 000 54             MeV
 neutron mass in u                                           1.008 664 915 95         0.000 000 000 49         u
-neutron molar mass                                          1.008 664 915 95 e-3     0.000 000 000 49 e-3     kg mol^-1
+neutron molar mass                                          1.008 664 915 60 e-3     0.000 000 000 57 e-3     kg mol^-1
 neutron-muon mass ratio                                     8.892 484 06             0.000 000 20             
 neutron-proton mag. mom. ratio                              -0.684 979 34            0.000 000 16             
 neutron-proton mass difference                              2.305 574 35 e-30        0.000 000 82 e-30        kg
@@ -278,7 +278,7 @@ proton mass                                                 1.672 621 923 69 e-2
 proton mass energy equivalent                               1.503 277 615 98 e-10    0.000 000 000 46 e-10    J
 proton mass energy equivalent in MeV                        938.272 088 16           0.000 000 29             MeV
 proton mass in u                                            1.007 276 466 621        0.000 000 000 053        u
-proton molar mass                                           1.007 276 466 621 e-3    0.000 000 000 053 e-3    kg mol^-1
+proton molar mass                                           1.007 276 466 27 e-3     0.000 000 000 31 e-3     kg mol^-1
 proton-muon mass ratio                                      8.880 243 37             0.000 000 20             
 proton-neutron mag. mom. ratio                              -1.459 898 05            0.000 000 34             
 proton-neutron mass ratio                                   0.998 623 478 12         0.000 000 000 49         
@@ -341,7 +341,7 @@ triton mass                                                 5.007 356 7446 e-27 
 triton mass energy equivalent                               4.500 387 8060 e-10      0.000 000 0014 e-10      J
 triton mass energy equivalent in MeV                        2808.921 132 98          0.000 000 85             MeV
 triton mass in u                                            3.015 500 716 21         0.000 000 000 12         u
-triton molar mass                                           3.015 500 716 21 e-3     0.000 000 000 12 e-3     kg mol^-1
+triton molar mass                                           3.015 500 715 15 e-3     0.000 000 000 90 e-3     kg mol^-1
 triton-proton mass ratio                                    2.993 717 034 14         0.000 000 000 15         
 triton relative atomic mass                                 3.015 500 716 21         0.000 000 000 12         
 triton to proton mag. mom. ratio                            1.066 639 9191           0.000 000 0021           
