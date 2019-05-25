@@ -16,7 +16,7 @@
 		for (let i = 0; i < 400; i++) {
 			let res;
 			if ((res = pattern.exec(codata2018)) === null) { break; }
-			codata2018Object[i] = res.groups;
+			codata2018Object.push(res.groups);
 
 			const { name, val, val_exp, uns_shift, uns, uns_exp, unit } = codata2018Object[i];
 			if (!name || !val) { alert(i + 2); break; }// TEST
@@ -24,8 +24,8 @@
 			if (uns_shift === undefined && (uns !== undefined || uns_exp !== undefined)) { alert(i + 2); break; }// TEST
 
 		}
+
 		let j = 0;
-		// label:
 		for (let entity of codataObject) {
 			let k = 0;
 			for (let new_entity of codata2018Object) {
@@ -40,13 +40,42 @@
 				console.log(entity.name + "    " + entity.value2014);
 			}
 		}
+
 		//console.log(res.groups);
 		//console.dir(i + 2);
 		// if( res[1] !== codataObject[i].name){console.log(codataObject[i].name);break;}
 		// codataObject[i].value2018 = res[2] + ((res[4] === undefined)? "": "(" + res[4] + ")");
-		console.log(j);
-		console.log(codataObject.length);
-		console.log(codata2018Object.length);
+
+		console.log(`**************************`);
+		console.log(`Number of old entities in new list = ${j}`);
+		console.log(`Number of all old entities = ${codataObject.length}`);
+		if (j !== codataObject.length) { console.log(`CORRECT OLD ENTITIES LISTED ABOVE !!!`) }
+		else { console.log(`ALL OLD ENTITIES ARE IN NEW LIST`) }
+		console.log(`**************************`);
+		
+		j = 0;
+		for (let new_entity of codata2018Object) {
+			let k = 0;
+			for (let entity of codataObject) {
+				if (entity.name === new_entity.name) {
+					++j; ++k;
+					// if (new_entity.unit && entity.unit !== new_entity.unit) { alert(entity.name); }// TEST
+					// if (new_entity.val_exp && entity.exponent !== new_entity.val_exp) { alert(entity.name); }// TEST
+					break;
+				}
+			}
+			if (k === 0) {
+				console.log(new_entity.name + "    " + new_entity.val);
+			}
+		}
+		// console.log(j);
+		// console.log(codataObject.length);
+		console.log(`**************************`);
+		console.log(`Number of new entities in old object = ${j}`);
+		console.log(`Number of all new entities = ${codata2018Object.length}`);
+		if(j !== codata2018Object.length){ console.log(`ADD NEW ENTITIES LISTED ABOVE TO OLD OBJECT !!!`)}
+		else {console.log(`ALL NEW ENTITIES ARE IN OLD OBJECT`) }
+		console.log(`**************************`);
 	</script>
 	<!-- ############################################################################################################################################################################### -->
 	<script src="help_scripts/view_codata_object.js"></script>

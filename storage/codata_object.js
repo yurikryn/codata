@@ -658,6 +658,17 @@ let codataObject = [
 	},
 	{
 		"category": "Electron",
+		"name": "electron relative atomic mass",
+		"unit": "u",
+		"exponent": "-4",
+		"value2014": "5.485 799 090 70(16)",
+		"value2010": "5.485 799 0946(22)",
+		"value2006": "5.485 799 0943(23)",
+		"value2002": "5.485 799 0945(24)",
+		"value1998": "5.485 799 110(12)"
+	},
+	{
+		"category": "Electron",
 		"name": "electron molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-7",
@@ -1229,6 +1240,16 @@ let codataObject = [
 	},
 	{
 		"category": "Proton",
+		"name": "proton relative atomic mass",
+		"unit": "u",
+		"value2014": "1.007 276 466 879(91)",
+		"value2010": "1.007 276 466 812(90)",
+		"value2006": "1.007 276 466 77(10)",
+		"value2002": "1.007 276 466 88(13)",
+		"value1998": "1.007 276 466 88(13)"
+	},
+	{
+		"category": "Proton",
 		"name": "proton molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -1471,6 +1492,16 @@ let codataObject = [
 	},
 	{
 		"category": "Neutron",
+		"name": "neutron relative atomic mass",
+		"unit": "u",
+		"value2014": "1.008 664 915 88(49)",
+		"value2010": "1.008 664 916 00(43)",
+		"value2006": "1.008 664 915 97(43)",
+		"value2002": "1.008 664 915 60(55)",
+		"value1998": "1.008 664 915 78(55)"
+	},
+	{
+		"category": "Neutron",
 		"name": "neutron molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -1670,6 +1701,16 @@ let codataObject = [
 	},
 	{
 		"category": "Deuteron",
+		"name": "deuteron relative atomic mass",
+		"unit": "u",
+		"value2014": "2.013 553 212 745(40)",
+		"value2010": "2.013 553 212 712(77)",
+		"value2006": "2.013 553 212 724(78)",
+		"value2002": "2.013 553 212 70(35)",
+		"value1998": "2.013 553 212 71(35)"
+	},
+	{
+		"category": "Deuteron",
 		"name": "deuteron molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -1819,6 +1860,16 @@ let codataObject = [
 	},
 	{
 		"category": "Triton",
+		"name": "triton relative atomic mass",
+		"unit": "u",
+		"value2014": "3.015 500 716 32(11)",
+		"value2010": "3.015 500 7134(25)",
+		"value2006": "3.015 500 7134(25)",
+		"value2002": "no data",
+		"value1998": "no data"
+	},
+	{
+		"category": "Triton",
 		"name": "triton molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -1920,6 +1971,16 @@ let codataObject = [
 	{
 		"category": "Helion",
 		"name": "helion mass in u",
+		"unit": "u",
+		"value2014": "3.014 932 246 73(12)",
+		"value2010": "3.014 932 2468(25)",
+		"value2006": "3.014 932 2473(26)",
+		"value2002": "3.014 932 2434(58)",
+		"value1998": "3.014 932 234 69(86)"
+	},
+	{
+		"category": "Helion",
+		"name": "helion relative atomic mass",
 		"unit": "u",
 		"value2014": "3.014 932 246 73(12)",
 		"value2010": "3.014 932 2468(25)",
@@ -2060,6 +2121,16 @@ let codataObject = [
 	{
 		"category": "Alpha particle",
 		"name": "alpha particle mass in u",
+		"unit": "u",
+		"value2014": "4.001 506 179 127(63)",
+		"value2010": "4.001 506 179 125(62)",
+		"value2006": "4.001 506 179 127(62)",
+		"value2002": "4.001 506 179 149(56)",
+		"value1998": "4.001 506 1747(10)"
+	},
+	{
+		"category": "Alpha particle",
+		"name": "alpha particle relative atomic mass",
 		"unit": "u",
 		"value2014": "4.001 506 179 127(63)",
 		"value2010": "4.001 506 179 125(62)",
