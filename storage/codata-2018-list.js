@@ -4,7 +4,7 @@ alpha particle mass                                         6.644 657 3357 e-27 
 alpha particle mass energy equivalent                       5.971 920 1914 e-10      0.000 000 0018 e-10      J
 alpha particle mass energy equivalent in MeV                3727.379 4066            0.000 0011               MeV
 alpha particle mass in u                                    4.001 506 179 127        0.000 000 000 063        u
-alpha particle molar mass                                   4.001 506 1778 e-3       0.000 000 0012 e-3       kg mol^-1
+alpha particle molar mass                                   4.001 506 1777 e-3       0.000 000 0012 e-3       kg mol^-1
 alpha particle-proton mass ratio                            3.972 599 690 09         0.000 000 000 22         
 alpha particle relative atomic mass                         4.001 506 179 127        0.000 000 000 063        
 Angstrom star                                               1.000 014 95 e-10        0.000 000 90 e-10        m
@@ -52,7 +52,6 @@ Boltzmann constant                                          1.380 649 e-23      
 Boltzmann constant in eV/K                                  8.617 333 262... e-5     (exact)                  eV K^-1
 Boltzmann constant in Hz/K                                  2.083 661 912... e10     (exact)                  Hz K^-1
 Boltzmann constant in inverse meter per kelvin              69.503 480 04...         (exact)                  m^-1 K^-1
-characteristic impedance of vacuum                          376.730 313 668          0.000 000 057            ohm
 classical electron radius                                   2.817 940 3262 e-15      0.000 000 0013 e-15      m
 Compton wavelength                                          2.426 310 238 67 e-12    0.000 000 000 73 e-12    m
 conductance quantum                                         7.748 091 729... e-5     (exact)                  S
@@ -60,7 +59,7 @@ conventional value of ampere-90                             1.000 000 088 87... 
 conventional value of coulomb-90                            1.000 000 088 87...      (exact)                  C
 conventional value of farad-90                              0.999 999 982 20...      (exact)                  F
 conventional value of henry-90                              1.000 000 017 79...      (exact)                  H
-conventional value of Josephson constant                    483 597.9 e9             (exact)                  Hz_90 V_90^-1
+conventional value of Josephson constant                    483 597.9 e9             (exact)                  Hz V_90^-1
 conventional value of ohm-90                                1.000 000 017 79...      (exact)                  ohm
 conventional value of volt-90                               1.000 000 106 66...      (exact)                  V
 conventional value of von Klitzing constant                 25 812.807               (exact)                  ohm_90
@@ -76,7 +75,7 @@ deuteron mass                                               3.343 583 7724 e-27 
 deuteron mass energy equivalent                             3.005 063 231 02 e-10    0.000 000 000 91 e-10    J
 deuteron mass energy equivalent in MeV                      1875.612 942 57          0.000 000 57             MeV
 deuteron mass in u                                          2.013 553 212 745        0.000 000 000 040        u
-deuteron molar mass                                         2.013 553 212 02 e-3     0.000 000 000 60 e-3     kg mol^-1
+deuteron molar mass                                         2.013 553 212 05 e-3     0.000 000 000 61 e-3     kg mol^-1
 deuteron-neutron mag. mom. ratio                            -0.448 206 53            0.000 000 11             
 deuteron-proton mag. mom. ratio                             0.307 012 209 39         0.000 000 000 79         
 deuteron-proton mass ratio                                  1.999 007 501 39         0.000 000 000 11         
@@ -97,7 +96,7 @@ electron mass                                               9.109 383 7015 e-31 
 electron mass energy equivalent                             8.187 105 7769 e-14      0.000 000 0025 e-14      J
 electron mass energy equivalent in MeV                      0.510 998 950 00         0.000 000 000 15         MeV
 electron mass in u                                          5.485 799 090 65 e-4     0.000 000 000 16 e-4     u
-electron molar mass                                         5.485 799 0887 e-7       0.000 000 0017 e-7       kg mol^-1
+electron molar mass                                         5.485 799 0888 e-7       0.000 000 0017 e-7       kg mol^-1
 electron-muon mag. mom. ratio                               206.766 9883             0.000 0046               
 electron-muon mass ratio                                    4.836 331 69 e-3         0.000 000 11 e-3         
 electron-neutron mag. mom. ratio                            960.920 50               0.000 23                 
@@ -143,7 +142,7 @@ helion mass                                                 5.006 412 7796 e-27 
 helion mass energy equivalent                               4.499 539 4125 e-10      0.000 000 0014 e-10      J
 helion mass energy equivalent in MeV                        2808.391 607 43          0.000 000 85             MeV
 helion mass in u                                            3.014 932 247 175        0.000 000 000 097        u
-helion molar mass                                           3.014 932 246 14 e-3     0.000 000 000 90 e-3     kg mol^-1
+helion molar mass                                           3.014 932 246 13 e-3     0.000 000 000 91 e-3     kg mol^-1
 helion-proton mass ratio                                    2.993 152 671 67         0.000 000 000 13         
 helion relative atomic mass                                 3.014 932 247 175        0.000 000 000 097        
 helion shielding shift                                      5.996 743 e-5            0.000 010 e-5            
@@ -260,10 +259,10 @@ nuclear magneton in MHz/T                                   7.622 593 2291      
 Planck constant                                             6.626 070 15 e-34        (exact)                  J Hz^-1
 Planck constant in eV/Hz                                    4.135 667 696... e-15    (exact)                  eV Hz^-1
 Planck length                                               1.616 255 e-35           0.000 018 e-35           m
-Planck mass                                                 2.176 435 e-8            0.000 024 e-8            kg
-Planck mass energy equivalent in GeV                        1.220 890 e19            0.000 013 e19            GeV
-Planck temperature                                          1.416 785 e32            0.000 016 e32            K
-Planck time                                                 5.391 245 e-44           0.000 060 e-44           s
+Planck mass                                                 2.176 434 e-8            0.000 024 e-8            kg
+Planck mass energy equivalent in GeV                        1.220 890 e19            0.000 014 e19            GeV
+Planck temperature                                          1.416 784 e32            0.000 016 e32            K
+Planck time                                                 5.391 247 e-44           0.000 060 e-44           s
 proton charge to mass quotient                              9.578 833 1560 e7        0.000 000 0029 e7        C kg^-1
 proton Compton wavelength                                   1.321 409 855 39 e-15    0.000 000 000 40 e-15    m
 proton-electron mass ratio                                  1836.152 673 43          0.000 000 11             
@@ -341,7 +340,7 @@ triton mass                                                 5.007 356 7446 e-27 
 triton mass energy equivalent                               4.500 387 8060 e-10      0.000 000 0014 e-10      J
 triton mass energy equivalent in MeV                        2808.921 132 98          0.000 000 85             MeV
 triton mass in u                                            3.015 500 716 21         0.000 000 000 12         u
-triton molar mass                                           3.015 500 715 15 e-3     0.000 000 000 90 e-3     kg mol^-1
+triton molar mass                                           3.015 500 715 17 e-3     0.000 000 000 92 e-3     kg mol^-1
 triton-proton mass ratio                                    2.993 717 034 14         0.000 000 000 15         
 triton relative atomic mass                                 3.015 500 716 21         0.000 000 000 12         
 triton to proton mag. mom. ratio                            1.066 639 9191           0.000 000 0021           

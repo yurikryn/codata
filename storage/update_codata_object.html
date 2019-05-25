@@ -7,7 +7,7 @@
 	<h1>codata-object:</h1>
 	<pre id="view"></pre>
 
-	<script>"use strict;"</script>
+	<script>"use strict"</script>
 	<script src="codata-2018-list.js"></script>
 	<script src="codata-object.js"></script>
 
@@ -25,14 +25,14 @@
 				if (unc_shift === undefined && (uncertainty !== undefined || unc_exp !== undefined)) { alert(i + 2); break; }// TEST
 
 				codata2018Object.push({
-					category: "",
+					category: "TODO",
 					name,
-					value2018: `${value}${(uncertainty !== undefined) ? `(${uncertainty})` : ``}`,
+					unit,
 					exponent,
-					unit
+					value2018: `${value}${(uncertainty !== undefined) ? `(${uncertainty})` : ``}`
 				});
 			}
-		}
+		};
 		/*********************************************************************/
 		{
 			let j = 0;
@@ -59,8 +59,9 @@
 			if (j !== codataObject.length) { console.log(`CORRECT OR REMOVE OLD ENTITIES LISTED ABOVE !!!`) }
 			else { console.log(`ALL OLD ENTITIES ARE IN NEW LIST`) }
 			console.log(`**************************`);
-		}
+		};
 		/*********************************************************************/
+		const codataObjectNew = [];
 		{
 			j = 0;
 			for (let new_entity of codata2018Object) {
@@ -68,14 +69,23 @@
 				for (let entity of codataObject) {
 					if (entity.name === new_entity.name) {
 						++j; ++k;
-						entity.value2018 = new_entity.value2018;
+						const { category, name, unit, exponent, ...oldValues } = entity;
+
+						codataObjectNew.push({
+							category,
+							name,
+							unit,
+							exponent,
+							value2018: new_entity.value2018,
+							...oldValues
+						});
 						break;
 					}
 				}
 				if (k === 0) {
 					console.log(new_entity.name + "    " + new_entity.value2018);
+					codataObjectNew.push(new_entity);
 				}
-
 			}
 
 			console.log(`**************************`);
@@ -84,13 +94,13 @@
 			if (j !== codata2018Object.length) { console.log(`ADD NEW ENTITIES LISTED ABOVE TO OLD OBJECT !!!`) }
 			else { console.log(`ALL NEW ENTITIES ARE IN OLD OBJECT`) }
 			console.log(`**************************`);
-
-			console.dir(codata2018Object);
 		}
+		/*********************************************************************/
+		codataObject = codataObjectNew;
 	</script>
 
-	<script src="help_scripts/view_codata_object.js"></script>
-	<script src="help_scripts/save_codata_object.js"></script>
+	<script src="help_scripts/view-codata-object.js"></script>
+	<script src="help_scripts/save-codata-object.js"></script>
 </body>
 
 </html>
