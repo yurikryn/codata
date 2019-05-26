@@ -2,105 +2,34 @@
 <html>
 
 <body>
+	<script>"use strict"</script>
+
 	<button id="save-button">Save to file</button>
 	<a id="save-anchor" hidden></a>
-	<h1>codata-object:</h1>
-	<pre id="view"></pre>
+	<script src="save-codata-object-json.js"></script>
 
-	<script>"use strict"</script>
+	<h1>codata-object:</h1>
+
+	<pre id="view"></pre>
+	<script src="view-codata-object-json.js"></script>
+
 	<script src="codata-2018-list.js"></script>
+	<script src="get-codata-2018-object.js"></script>
+
 	<script src="codata-object.js"></script>
+	<script src="test-codata-object.js"></script>
+
+	<script src="update-codata-object.js"></script>
+	<script src="get-codata-object-json.js"></script>
 
 	<script>
-		/*********************************************************************/
-		const codata2018Object = [];
-		{
-			const pattern = /^(?<name>[^*].*?)(?:\x20{2,})(?<value>-?\d[.\d\x20]*?)(?:\x20e(?<exponent>-?\d+))?(?:\x20{2,})(?:\(exact\)|0\.(?<unc_shift>[0\x20]*)(?<uncertainty>[1-9]\d*))(?:\x20e(?<unc_exp>-?\d+))?(?:\x20{2,})(?<unit>.*)$/gm;
-			let res;
-			while (res = pattern.exec(codata2018List)) {
-				const { name, value, exponent, unc_shift, uncertainty, unc_exp, unit } = res.groups;
-
-				if (!name || !value) { alert(i + 2); break; }// TEST
-				if (exponent && unc_exp && exponent !== unc_exp) { alert(i + 2); break; }// TEST
-				if (unc_shift === undefined && (uncertainty !== undefined || unc_exp !== undefined)) { alert(i + 2); break; }// TEST
-
-				codata2018Object.push({
-					category: "TODO",
-					name,
-					unit: unit || undefined,
-					exponent,
-					value2018: `${value}${(uncertainty !== undefined) ? `(${uncertainty})` : ``}`
-				});
-			}
-		};
-		/*********************************************************************/
-		{
-			let j = 0;
-			for (let entity of codataObject) {
-				let k = 0;
-				for (let new_entity of codata2018Object) {
-					if (new_entity.name === entity.name) {
-						++j; ++k;
-
-						if (new_entity.unit && entity.unit !== new_entity.unit) { alert(entity.name); }// TEST
-						if (new_entity.exponent && entity.exponent !== new_entity.exponent) { alert(entity.name); }// TEST
-
-						break;
-					}
-				}
-				if (k === 0) {
-					console.log(entity.name + "    " + entity.value2014);
-				}
-			}
-
-			console.log(`**************************`);
-			console.log(`Number of old entities in new list = ${j}`);
-			console.log(`Number of all old entities = ${codataObject.length}`);
-			if (j !== codataObject.length) { console.log(`CORRECT OR REMOVE OLD ENTITIES LISTED ABOVE !!!`) }
-			else { console.log(`ALL OLD ENTITIES ARE IN NEW LIST`) }
-			console.log(`**************************`);
-		};
-		/*********************************************************************/
-		const codataObjectNew = [];
-		{
-			j = 0;
-			for (let new_entity of codata2018Object) {
-				let k = 0;
-				for (let entity of codataObject) {
-					if (entity.name === new_entity.name) {
-						++j; ++k;
-						const { category, name, unit, exponent, ...oldValues } = entity;
-
-						codataObjectNew.push({
-							category,
-							name,
-							unit,
-							exponent,
-							value2018: new_entity.value2018,
-							...oldValues
-						});
-						break;
-					}
-				}
-				if (k === 0) {
-					console.log(new_entity.name + "    " + new_entity.value2018);
-					codataObjectNew.push(new_entity);
-				}
-			}
-
-			console.log(`**************************`);
-			console.log(`Number of new entities in old object = ${j}`);
-			console.log(`Number of all new entities = ${codata2018Object.length}`);
-			if (j !== codata2018Object.length) { console.log(`ADD NEW ENTITIES LISTED ABOVE TO OLD OBJECT !!!`) }
-			else { console.log(`ALL NEW ENTITIES ARE IN OLD OBJECT`) }
-			console.log(`**************************`);
-		}
-		/*********************************************************************/
-		codataObject = codataObjectNew;
+		const codata2018Object = getCodata2018Object(codata2018List);
+		testCodataObject(codataObject, codata2018Object);
+		codataObject = updateCodataObject(codataObject, codata2018Object);
+		const codataObjectJSON = getCodataObjectJSON(codataObject);
+		viewCodataObjectJSON(codataObjectJSON);
+		saveCodataObjectJSON(codataObjectJSON);
 	</script>
-
-	<script src="help_scripts/view-codata-object.js"></script>
-	<script src="help_scripts/save-codata-object.js"></script>
 </body>
 
 </html>
