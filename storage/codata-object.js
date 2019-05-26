@@ -660,59 +660,76 @@ let codataObject = [
 		"value1998": "7.748 091 696(28)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of ampere-90",
 		"unit": "A",
-		"value2018": "1.000 000 088 87..."
+		"value2018": "1.000 000 088 87...",
+		"value2014": "1.000 000 0806(61)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of coulomb-90",
 		"unit": "C",
-		"value2018": "1.000 000 088 87..."
+		"value2018": "1.000 000 088 87...",
+		"value2014": "1.000 000 0806(61)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of farad-90",
 		"unit": "F",
-		"value2018": "0.999 999 982 20..."
+		"value2018": "0.999 999 982 20...",
+		"value2014": "0.999 999 982 35(23)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of henry-90",
 		"unit": "H",
-		"value2018": "1.000 000 017 79..."
+		"value2018": "1.000 000 017 79...",
+		"value2014": "1.000 000 017 65(23)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of Josephson constant",
 		"unit": "Hz V_90^-1",
 		"exponent": "9",
-		"value2018": "483 597.9"
+		"value2018": "483 597.9",
+		"value2014": "483 597.9",
+		"value2010": "483 597.9",
+		"value2006": "483 597.9",
+		"value2002": "483 597.9",
+		"value1998": "483 597.9"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of ohm-90",
 		"unit": "ohm",
-		"value2018": "1.000 000 017 79..."
+		"value2018": "1.000 000 017 79...",
+		"value2014": "1.000 000 017 65(23)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of volt-90",
 		"unit": "V",
-		"value2018": "1.000 000 106 66..."
+		"value2018": "1.000 000 106 66...",
+		"value2014": "1.000 000 0983(61)"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of von Klitzing constant",
 		"unit": "ohm_90",
-		"value2018": "25 812.807"
+		"value2018": "25 812.807",
+		"value2014": "25 812.807",
+		"value2010": "25 812.807",
+		"value2006": "25 812.807",
+		"value2002": "25 812.807",
+		"value1998": "25 812.807"
 	},
 	{
-		"category": "CONVENTIONAL UNIT",
+		"category": "Conventional",
 		"name": "conventional value of watt-90",
 		"unit": "W",
-		"value2018": "1.000 000 195 53..."
+		"value2018": "1.000 000 195 53...",
+		"value2014": "1.000 000 179(12)"
 	},
 	{
 		"category": "X-RAY VALUES",
@@ -3571,7 +3588,7 @@ let codataObject = [
 		"value1998": "9.806 65"
 	},
 	{
-		"category": "ADOPTED VALUES",
+		"category": "PHYSICOCHEMICAL",
 		"name": "standard atmosphere",
 		"unit": "Pa",
 		"value2018": "101 325",
@@ -3582,7 +3599,7 @@ let codataObject = [
 		"value1998": "101 325"
 	},
 	{
-		"category": "ADOPTED VALUES",
+		"category": "PHYSICOCHEMICAL",
 		"name": "standard-state pressure",
 		"unit": "Pa",
 		"value2018": "100 000",
