@@ -1,6 +1,6 @@
 let codataObject = [
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle-electron mass ratio",
 		"value2018": "7294.299 541 42(24)",
 		"value2014": "7294.299 541 36(24)",
@@ -10,7 +10,7 @@ let codataObject = [
 		"value1998": "7294.299 508(16)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -22,7 +22,7 @@ let codataObject = [
 		"value1998": "6.644 655 98(52)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -34,7 +34,7 @@ let codataObject = [
 		"value1998": "5.971 918 97(47)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "3727.379 4066(11)",
@@ -45,7 +45,7 @@ let codataObject = [
 		"value1998": "3727.379 04(15)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle mass in u",
 		"unit": "u",
 		"value2018": "4.001 506 179 127(63)",
@@ -56,7 +56,7 @@ let codataObject = [
 		"value1998": "4.001 506 1747(10)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -68,7 +68,7 @@ let codataObject = [
 		"value1998": "4.001 506 1747(10)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle-proton mass ratio",
 		"value2018": "3.972 599 690 09(22)",
 		"value2014": "3.972 599 689 07(36)",
@@ -78,7 +78,7 @@ let codataObject = [
 		"value1998": "3.972 599 6846(11)"
 	},
 	{
-		"category": "Alpha particle",
+		"category": "ATOMIC AND NUCLEAR # Alpha particle",
 		"name": "alpha particle relative atomic mass",
 		"unit": "u",
 		"value2018": "4.001 506 179 127(63)",
@@ -220,7 +220,7 @@ let codataObject = [
 		"value1998": "1.660 538 73(13)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of 1st hyperpolarizability",
 		"unit": "C^3 m^3 J^-2",
 		"exponent": "-53",
@@ -232,7 +232,7 @@ let codataObject = [
 		"value1998": "3.206 361 57(14)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of 2nd hyperpolarizability",
 		"unit": "C^4 m^4 J^-3",
 		"exponent": "-65",
@@ -244,7 +244,7 @@ let codataObject = [
 		"value1998": "6.235 381 12(51)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of action",
 		"unit": "J s",
 		"exponent": "-34",
@@ -256,7 +256,7 @@ let codataObject = [
 		"value1998": "1.054 571 596(82)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of charge",
 		"unit": "C",
 		"exponent": "-19",
@@ -268,7 +268,7 @@ let codataObject = [
 		"value1998": "1.602 176 462(63)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of charge density",
 		"unit": "C m^-3",
 		"exponent": "12",
@@ -280,7 +280,7 @@ let codataObject = [
 		"value1998": "1.081 202 285(43)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of current",
 		"unit": "A",
 		"exponent": "-3",
@@ -292,7 +292,7 @@ let codataObject = [
 		"value1998": "6.623 617 53(26)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of electric dipole mom.",
 		"unit": "C m",
 		"exponent": "-30",
@@ -304,7 +304,7 @@ let codataObject = [
 		"value1998": "8.478 352 67(33)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of electric field",
 		"unit": "V m^-1",
 		"exponent": "11",
@@ -316,7 +316,7 @@ let codataObject = [
 		"value1998": "5.142 206 24(20)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of electric field gradient",
 		"unit": "V m^-2",
 		"exponent": "21",
@@ -328,7 +328,7 @@ let codataObject = [
 		"value1998": "9.717 361 53(39)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of electric polarizability",
 		"unit": "C^2 m^2 J^-1",
 		"exponent": "-41",
@@ -340,7 +340,7 @@ let codataObject = [
 		"value1998": "1.648 777 251(18)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of electric potential",
 		"unit": "V",
 		"value2018": "27.211 386 245 988(53)",
@@ -351,7 +351,7 @@ let codataObject = [
 		"value1998": "27.211 3834(11)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of electric quadrupole mom.",
 		"unit": "C m^2",
 		"exponent": "-40",
@@ -363,7 +363,7 @@ let codataObject = [
 		"value1998": "4.486 551 00(18)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of energy",
 		"unit": "J",
 		"exponent": "-18",
@@ -375,7 +375,7 @@ let codataObject = [
 		"value1998": "4.359 743 81(34)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of force",
 		"unit": "N",
 		"exponent": "-8",
@@ -387,7 +387,7 @@ let codataObject = [
 		"value1998": "8.238 721 81(64)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of length",
 		"unit": "m",
 		"exponent": "-11",
@@ -399,7 +399,7 @@ let codataObject = [
 		"value1998": "5.291 772 083(19)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of mag. dipole mom.",
 		"unit": "J T^-1",
 		"exponent": "-23",
@@ -411,7 +411,7 @@ let codataObject = [
 		"value1998": "1.854 801 799(75)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of mag. flux density",
 		"unit": "T",
 		"exponent": "5",
@@ -423,7 +423,7 @@ let codataObject = [
 		"value1998": "2.350 517 349(94)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of magnetizability",
 		"unit": "J T^-2",
 		"exponent": "-29",
@@ -435,7 +435,7 @@ let codataObject = [
 		"value1998": "7.891 036 41(14)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of mass",
 		"unit": "kg",
 		"exponent": "-31",
@@ -447,7 +447,7 @@ let codataObject = [
 		"value1998": "9.109 381 88(72)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of momentum",
 		"unit": "kg m s^-1",
 		"exponent": "-24",
@@ -459,7 +459,7 @@ let codataObject = [
 		"value1998": "1.992 851 51(16)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of permittivity",
 		"unit": "F m^-1",
 		"exponent": "-10",
@@ -471,7 +471,7 @@ let codataObject = [
 		"value1998": "1.112 650 056..."
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of time",
 		"unit": "s",
 		"exponent": "-17",
@@ -483,7 +483,7 @@ let codataObject = [
 		"value1998": "2.418 884 326 500(18)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Atomic",
 		"name": "atomic unit of velocity",
 		"unit": "m s^-1",
 		"exponent": "6",
@@ -565,7 +565,7 @@ let codataObject = [
 		"value1998": "0.671 7131(12)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Bohr radius",
 		"unit": "m",
 		"exponent": "-11",
@@ -624,7 +624,7 @@ let codataObject = [
 		"value1998": "69.503 56(12)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "classical electron radius",
 		"unit": "m",
 		"exponent": "-15",
@@ -636,7 +636,7 @@ let codataObject = [
 		"value1998": "2.817 940 285(31)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "Compton wavelength",
 		"unit": "m",
 		"exponent": "-12",
@@ -660,35 +660,35 @@ let codataObject = [
 		"value1998": "7.748 091 696(28)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of ampere-90",
 		"unit": "A",
 		"value2018": "1.000 000 088 87...",
 		"value2014": "1.000 000 0806(61)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of coulomb-90",
 		"unit": "C",
 		"value2018": "1.000 000 088 87...",
 		"value2014": "1.000 000 0806(61)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of farad-90",
 		"unit": "F",
 		"value2018": "0.999 999 982 20...",
 		"value2014": "0.999 999 982 35(23)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of henry-90",
 		"unit": "H",
 		"value2018": "1.000 000 017 79...",
 		"value2014": "1.000 000 017 65(23)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of Josephson constant",
 		"unit": "Hz V_90^-1",
 		"exponent": "9",
@@ -700,21 +700,21 @@ let codataObject = [
 		"value1998": "483 597.9"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of ohm-90",
 		"unit": "ohm",
 		"value2018": "1.000 000 017 79...",
 		"value2014": "1.000 000 017 65(23)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of volt-90",
 		"unit": "V",
 		"value2018": "1.000 000 106 66...",
 		"value2014": "1.000 000 0983(61)"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of von Klitzing constant",
 		"unit": "ohm_90",
 		"value2018": "25 812.807",
@@ -725,7 +725,7 @@ let codataObject = [
 		"value1998": "25 812.807"
 	},
 	{
-		"category": "Conventional",
+		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of watt-90",
 		"unit": "W",
 		"value2018": "1.000 000 195 53...",
@@ -744,7 +744,7 @@ let codataObject = [
 		"value1998": "1.002 077 03(28)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron-electron mag. mom. ratio",
 		"exponent": "-4",
 		"value2018": "-4.664 345 551(12)",
@@ -755,7 +755,7 @@ let codataObject = [
 		"value1998": "-4.664 345 537(50)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron-electron mass ratio",
 		"value2018": "3670.482 967 88(13)",
 		"value2014": "3670.482 967 85(13)",
@@ -765,7 +765,7 @@ let codataObject = [
 		"value1998": "3670.482 9550(78)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron g factor",
 		"value2018": "0.857 438 2338(22)",
 		"value2014": "0.857 438 2311(48)",
@@ -775,7 +775,7 @@ let codataObject = [
 		"value1998": "0.857 438 2284(94)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-27",
@@ -787,7 +787,7 @@ let codataObject = [
 		"value1998": "4.330 734 57(18)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mag. mom. to Bohr magneton ratio",
 		"exponent": "-4",
 		"value2018": "4.669 754 570(12)",
@@ -798,7 +798,7 @@ let codataObject = [
 		"value1998": "4.669 754 556(50)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mag. mom. to nuclear magneton ratio",
 		"value2018": "0.857 438 2338(22)",
 		"value2014": "0.857 438 2311(48)",
@@ -808,7 +808,7 @@ let codataObject = [
 		"value1998": "0.857 438 2284(94)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -820,7 +820,7 @@ let codataObject = [
 		"value1998": "3.343 583 09(26)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -832,7 +832,7 @@ let codataObject = [
 		"value1998": "3.005 062 62(24)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "1875.612 942 57(57)",
@@ -843,7 +843,7 @@ let codataObject = [
 		"value1998": "1875.612 762(75)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron mass in u",
 		"unit": "u",
 		"value2018": "2.013 553 212 745(40)",
@@ -854,7 +854,7 @@ let codataObject = [
 		"value1998": "2.013 553 212 71(35)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -866,7 +866,7 @@ let codataObject = [
 		"value1998": "2.013 553 212 71(35)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron-neutron mag. mom. ratio",
 		"value2018": "-0.448 206 53(11)",
 		"value2014": "-0.448 206 52(11)",
@@ -876,7 +876,7 @@ let codataObject = [
 		"value1998": "-0.448 206 52(11)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron-proton mag. mom. ratio",
 		"value2018": "0.307 012 209 39(79)",
 		"value2014": "0.307 012 2077(15)",
@@ -886,7 +886,7 @@ let codataObject = [
 		"value1998": "0.307 012 2083(45)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron-proton mass ratio",
 		"value2018": "1.999 007 501 39(11)",
 		"value2014": "1.999 007 500 87(19)",
@@ -896,7 +896,7 @@ let codataObject = [
 		"value1998": "1.999 007 500 83(41)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron relative atomic mass",
 		"unit": "u",
 		"value2018": "2.013 553 212 745(40)",
@@ -907,7 +907,7 @@ let codataObject = [
 		"value1998": "2.013 553 212 71(35)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "deuteron rms charge radius",
 		"unit": "m",
 		"exponent": "-15",
@@ -919,7 +919,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron charge to mass quotient",
 		"unit": "C kg^-1",
 		"exponent": "11",
@@ -931,7 +931,7 @@ let codataObject = [
 		"value1998": "-1.758 820 174(71)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-deuteron mag. mom. ratio",
 		"value2018": "-2143.923 4915(56)",
 		"value2014": "-2143.923 499(12)",
@@ -941,7 +941,7 @@ let codataObject = [
 		"value1998": "-2143.923 498(23)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-deuteron mass ratio",
 		"exponent": "-4",
 		"value2018": "2.724 437 107 462(96)",
@@ -952,7 +952,7 @@ let codataObject = [
 		"value1998": "2.724 437 1170(58)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron g factor",
 		"value2018": "-2.002 319 304 362 56(35)",
 		"value2014": "-2.002 319 304 361 82(52)",
@@ -962,7 +962,7 @@ let codataObject = [
 		"value1998": "-2.002 319 304 3737(82)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "11",
@@ -974,7 +974,7 @@ let codataObject = [
 		"value1998": "1.760 859 794(71)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2018": "28 024.951 4242(85)",
@@ -985,7 +985,7 @@ let codataObject = [
 		"value1998": "28 024.9540(11)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-helion mass ratio",
 		"exponent": "-4",
 		"value2018": "1.819 543 074 573(79)",
@@ -996,7 +996,7 @@ let codataObject = [
 		"value1998": "1.819 543 0885(40)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-24",
@@ -1008,7 +1008,7 @@ let codataObject = [
 		"value1998": "-9.284 763 62(37)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mag. mom. anomaly",
 		"exponent": "-3",
 		"value2018": "1.159 652 181 28(18)",
@@ -1019,7 +1019,7 @@ let codataObject = [
 		"value1998": "1.159 652 1869(41)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mag. mom. to Bohr magneton ratio",
 		"value2018": "-1.001 159 652 181 28(18)",
 		"value2014": "-1.001 159 652 180 91(26)",
@@ -1029,7 +1029,7 @@ let codataObject = [
 		"value1998": "-1.001 159 652 1869(41)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mag. mom. to nuclear magneton ratio",
 		"value2018": "-1838.281 971 88(11)",
 		"value2014": "-1838.281 972 34(17)",
@@ -1039,7 +1039,7 @@ let codataObject = [
 		"value1998": "-1838.281 9660(39)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mass",
 		"unit": "kg",
 		"exponent": "-31",
@@ -1051,7 +1051,7 @@ let codataObject = [
 		"value1998": "9.109 381 88(72)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mass energy equivalent",
 		"unit": "J",
 		"exponent": "-14",
@@ -1063,7 +1063,7 @@ let codataObject = [
 		"value1998": "8.187 104 14(64)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "0.510 998 950 00(15)",
@@ -1074,7 +1074,7 @@ let codataObject = [
 		"value1998": "0.510 998 902(21)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron mass in u",
 		"unit": "u",
 		"exponent": "-4",
@@ -1086,7 +1086,7 @@ let codataObject = [
 		"value1998": "5.485 799 110(12)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-7",
@@ -1098,7 +1098,7 @@ let codataObject = [
 		"value1998": "5.485 799 110(12)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-muon mag. mom. ratio",
 		"value2018": "206.766 9883(46)",
 		"value2014": "206.766 9880(46)",
@@ -1108,7 +1108,7 @@ let codataObject = [
 		"value1998": "206.766 9720(63)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-muon mass ratio",
 		"exponent": "-3",
 		"value2018": "4.836 331 69(11)",
@@ -1119,7 +1119,7 @@ let codataObject = [
 		"value1998": "4.836 332 10(15)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-neutron mag. mom. ratio",
 		"value2018": "960.920 50(23)",
 		"value2014": "960.920 50(23)",
@@ -1129,7 +1129,7 @@ let codataObject = [
 		"value1998": "960.920 50(23)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-neutron mass ratio",
 		"exponent": "-4",
 		"value2018": "5.438 673 4424(26)",
@@ -1140,7 +1140,7 @@ let codataObject = [
 		"value1998": "5.438 673 462(12)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-proton mag. mom. ratio",
 		"value2018": "-658.210 687 89(20)",
 		"value2014": "-658.210 6866(20)",
@@ -1150,7 +1150,7 @@ let codataObject = [
 		"value1998": "-658.210 6875(66)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-proton mass ratio",
 		"exponent": "-4",
 		"value2018": "5.446 170 214 87(33)",
@@ -1161,7 +1161,7 @@ let codataObject = [
 		"value1998": "5.446 170 232(12)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron relative atomic mass",
 		"unit": "u",
 		"exponent": "-4",
@@ -1173,7 +1173,7 @@ let codataObject = [
 		"value1998": "5.485 799 110(12)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-tau mass ratio",
 		"exponent": "-4",
 		"value2018": "2.875 85(19)",
@@ -1184,7 +1184,7 @@ let codataObject = [
 		"value1998": "2.875 55(47)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron to alpha particle mass ratio",
 		"exponent": "-4",
 		"value2018": "1.370 933 554 787(45)",
@@ -1195,7 +1195,7 @@ let codataObject = [
 		"value1998": "1.370 933 5611(29)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron to shielded helion mag. mom. ratio",
 		"value2018": "864.058 257(10)",
 		"value2014": "864.058 257(10)",
@@ -1205,7 +1205,7 @@ let codataObject = [
 		"value1998": "864.058 255(10)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron to shielded proton mag. mom. ratio",
 		"value2018": "-658.227 5971(72)",
 		"value2014": "-658.227 5971(72)",
@@ -1215,7 +1215,7 @@ let codataObject = [
 		"value1998": "-658.227 5954(71)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "electron-triton mass ratio",
 		"exponent": "-4",
 		"value2018": "1.819 200 062 251(90)",
@@ -1226,7 +1226,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Accepted",
 		"name": "electron volt",
 		"unit": "J",
 		"exponent": "-19",
@@ -1357,7 +1357,7 @@ let codataObject = [
 		"value1998": "96 485.3415(39)"
 	},
 	{
-		"category": "Electroweak",
+		"category": "ATOMIC AND NUCLEAR # Electroweak",
 		"name": "Fermi coupling constant",
 		"unit": "GeV^-2",
 		"exponent": "-5",
@@ -1369,7 +1369,7 @@ let codataObject = [
 		"value1998": "1.166 39(1)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "fine-structure constant",
 		"exponent": "-3",
 		"value2018": "7.297 352 5693(11)",
@@ -1427,7 +1427,7 @@ let codataObject = [
 		"value1998": "27.211 3834(11)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Hartree energy",
 		"unit": "J",
 		"exponent": "-18",
@@ -1439,7 +1439,7 @@ let codataObject = [
 		"value1998": "4.359 743 81(34)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Hartree energy in eV",
 		"unit": "eV",
 		"value2018": "27.211 386 245 988(53)",
@@ -1510,7 +1510,7 @@ let codataObject = [
 		"value1998": "4.850 869 19(38)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion-electron mass ratio",
 		"value2018": "5495.885 280 07(24)",
 		"value2014": "5495.885 279 22(27)",
@@ -1520,7 +1520,7 @@ let codataObject = [
 		"value1998": "5495.885 238(12)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion g factor",
 		"value2018": "-4.255 250 615(50)",
 		"value2014": "-4.255 250 616(50)",
@@ -1530,7 +1530,7 @@ let codataObject = [
 		"value1998": "-4.255 250 613(50)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
@@ -1542,7 +1542,7 @@ let codataObject = [
 		"value1998": "-1.074 552 967(45)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "-1.158 740 958(14)",
@@ -1553,7 +1553,7 @@ let codataObject = [
 		"value1998": "-1.158 671 474(14)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mag. mom. to nuclear magneton ratio",
 		"value2018": "-2.127 625 307(25)",
 		"value2014": "-2.127 625 308(25)",
@@ -1563,7 +1563,7 @@ let codataObject = [
 		"value1998": "-2.127 625 306(25)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -1575,7 +1575,7 @@ let codataObject = [
 		"value1998": "5.006 411 74(39)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -1587,7 +1587,7 @@ let codataObject = [
 		"value1998": "4.499 538 48(35)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "2808.391 607 43(85)",
@@ -1598,7 +1598,7 @@ let codataObject = [
 		"value1998": "2808.391 32(11)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion mass in u",
 		"unit": "u",
 		"value2018": "3.014 932 247 175(97)",
@@ -1609,7 +1609,7 @@ let codataObject = [
 		"value1998": "3.014 932 234 69(86)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -1621,7 +1621,7 @@ let codataObject = [
 		"value1998": "3.014 932 234 69(86)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion-proton mass ratio",
 		"value2018": "2.993 152 671 67(13)",
 		"value2014": "2.993 152 670 46(29)",
@@ -1631,7 +1631,7 @@ let codataObject = [
 		"value1998": "2.993 152 658 50(93)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion relative atomic mass",
 		"unit": "u",
 		"value2018": "3.014 932 247 175(97)",
@@ -1642,9 +1642,8 @@ let codataObject = [
 		"value1998": "3.014 932 234 69(86)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "helion shielding shift",
-		"unit": "",
 		"exponent": "-5",
 		"value2018": "5.996 743(10)"
 	},
@@ -1739,7 +1738,7 @@ let codataObject = [
 		"value2018": "9 192 631 770"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "inverse fine-structure constant",
 		"value2018": "137.035 999 084(21)",
 		"value2014": "137.035 999 139(31)",
@@ -2267,7 +2266,7 @@ let codataObject = [
 		"value1998": "1.002 099 59(53)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon Compton wavelength",
 		"unit": "m",
 		"exponent": "-14",
@@ -2279,7 +2278,7 @@ let codataObject = [
 		"value1998": "1.173 444 197(35)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon-electron mass ratio",
 		"value2018": "206.768 2830(46)",
 		"value2014": "206.768 2826(46)",
@@ -2289,7 +2288,7 @@ let codataObject = [
 		"value1998": "206.768 2657(63)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon g factor",
 		"value2018": "-2.002 331 8418(13)",
 		"value2014": "-2.002 331 8418(13)",
@@ -2299,7 +2298,7 @@ let codataObject = [
 		"value1998": "-2.002 331 8320(13)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
@@ -2311,7 +2310,7 @@ let codataObject = [
 		"value1998": "-4.490 448 13(22)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mag. mom. anomaly",
 		"exponent": "-3",
 		"value2018": "1.165 920 89(63)",
@@ -2322,7 +2321,7 @@ let codataObject = [
 		"value1998": "1.165 916 02(64)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "-4.841 970 47(11)",
@@ -2333,7 +2332,7 @@ let codataObject = [
 		"value1998": "-4.841 970 85(15)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mag. mom. to nuclear magneton ratio",
 		"value2018": "-8.890 597 03(20)",
 		"value2014": "-8.890 597 05(20)",
@@ -2343,7 +2342,7 @@ let codataObject = [
 		"value1998": "-8.890 597 70(27)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mass",
 		"unit": "kg",
 		"exponent": "-28",
@@ -2355,7 +2354,7 @@ let codataObject = [
 		"value1998": "1.883 531 09(16)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mass energy equivalent",
 		"unit": "J",
 		"exponent": "-11",
@@ -2367,7 +2366,7 @@ let codataObject = [
 		"value1998": "1.692 833 32(14)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "105.658 3755(23)",
@@ -2378,7 +2377,7 @@ let codataObject = [
 		"value1998": "105.658 3568(52)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon mass in u",
 		"unit": "u",
 		"value2018": "0.113 428 9259(25)",
@@ -2389,7 +2388,7 @@ let codataObject = [
 		"value1998": "0.113 428 9168(34)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-4",
@@ -2401,7 +2400,7 @@ let codataObject = [
 		"value1998": "1.134 289 168(34)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon-neutron mass ratio",
 		"value2018": "0.112 454 5170(25)",
 		"value2014": "0.112 454 5167(25)",
@@ -2411,7 +2410,7 @@ let codataObject = [
 		"value1998": "0.112 454 5079(34)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon-proton mag. mom. ratio",
 		"value2018": "-3.183 345 142(71)",
 		"value2014": "-3.183 345 142(71)",
@@ -2421,7 +2420,7 @@ let codataObject = [
 		"value1998": "-3.183 345 39(10)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon-proton mass ratio",
 		"value2018": "0.112 609 5264(25)",
 		"value2014": "0.112 609 5262(25)",
@@ -2431,7 +2430,7 @@ let codataObject = [
 		"value1998": "0.112 609 5173(34)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon-tau mass ratio",
 		"exponent": "-2",
 		"value2018": "5.946 35(40)",
@@ -2442,7 +2441,7 @@ let codataObject = [
 		"value1998": "5.945 72(97)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of action",
 		"unit": "J s",
 		"exponent": "-34",
@@ -2454,7 +2453,7 @@ let codataObject = [
 		"value1998": "1.054 571 596(82)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of action in eV s",
 		"unit": "eV s",
 		"exponent": "-16",
@@ -2466,7 +2465,7 @@ let codataObject = [
 		"value1998": "6.582 118 89(26)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of energy",
 		"unit": "J",
 		"exponent": "-14",
@@ -2478,7 +2477,7 @@ let codataObject = [
 		"value1998": "8.187 104 14(64)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of energy in MeV",
 		"unit": "MeV",
 		"value2018": "0.510 998 950 00(15)",
@@ -2489,7 +2488,7 @@ let codataObject = [
 		"value1998": "0.510 998 902(21)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of length",
 		"unit": "m",
 		"exponent": "-13",
@@ -2501,7 +2500,7 @@ let codataObject = [
 		"value1998": "3.861 592 642(28)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of mass",
 		"unit": "kg",
 		"exponent": "-31",
@@ -2513,7 +2512,7 @@ let codataObject = [
 		"value1998": "9.109 381 88(72)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of momentum",
 		"unit": "kg m s^-1",
 		"exponent": "-22",
@@ -2525,7 +2524,7 @@ let codataObject = [
 		"value1998": "2.730 923 98(21)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of momentum in MeV/c",
 		"unit": "MeV/c",
 		"value2018": "0.510 998 950 00(15)",
@@ -2536,7 +2535,7 @@ let codataObject = [
 		"value1998": "0.510 998 902(21)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of time",
 		"unit": "s",
 		"exponent": "-21",
@@ -2548,7 +2547,7 @@ let codataObject = [
 		"value1998": "1.288 088 6555(95)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Natural",
 		"name": "natural unit of velocity",
 		"unit": "m s^-1",
 		"value2018": "299 792 458",
@@ -2559,7 +2558,7 @@ let codataObject = [
 		"value1998": "299 792 458"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
@@ -2571,7 +2570,7 @@ let codataObject = [
 		"value1998": "1.319 590 898(10)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-electron mag. mom. ratio",
 		"exponent": "-3",
 		"value2018": "1.040 668 82(25)",
@@ -2582,7 +2581,7 @@ let codataObject = [
 		"value1998": "1.040 668 82(25)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-electron mass ratio",
 		"value2018": "1838.683 661 73(89)",
 		"value2014": "1838.683 661 58(90)",
@@ -2592,7 +2591,7 @@ let codataObject = [
 		"value1998": "1838.683 6550(40)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron g factor",
 		"value2018": "-3.826 085 45(90)",
 		"value2014": "-3.826 085 45(90)",
@@ -2602,7 +2601,7 @@ let codataObject = [
 		"value1998": "-3.826 085 45(90)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
@@ -2614,7 +2613,7 @@ let codataObject = [
 		"value1998": "1.832 471 88(44)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2018": "29.164 6931(69)",
@@ -2625,7 +2624,7 @@ let codataObject = [
 		"value1998": "29.164 6958(70)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-27",
@@ -2637,7 +2636,7 @@ let codataObject = [
 		"value1998": "-9.662 3640(23)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "-1.041 875 63(25)",
@@ -2648,7 +2647,7 @@ let codataObject = [
 		"value1998": "-1.041 875 63(25)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mag. mom. to nuclear magneton ratio",
 		"value2018": "-1.913 042 73(45)",
 		"value2014": "-1.913 042 73(45)",
@@ -2658,7 +2657,7 @@ let codataObject = [
 		"value1998": "-1.913 042 72(45)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -2670,7 +2669,7 @@ let codataObject = [
 		"value1998": "1.674 927 16(13)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -2682,7 +2681,7 @@ let codataObject = [
 		"value1998": "1.505 349 46(12)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "939.565 420 52(54)",
@@ -2693,7 +2692,7 @@ let codataObject = [
 		"value1998": "939.565 330(38)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron mass in u",
 		"unit": "u",
 		"value2018": "1.008 664 915 95(49)",
@@ -2704,7 +2703,7 @@ let codataObject = [
 		"value1998": "1.008 664 915 78(55)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -2716,7 +2715,7 @@ let codataObject = [
 		"value1998": "1.008 664 915 78(55)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-muon mass ratio",
 		"value2018": "8.892 484 06(20)",
 		"value2014": "8.892 484 08(20)",
@@ -2726,7 +2725,7 @@ let codataObject = [
 		"value1998": "8.892 484 78(27)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-proton mag. mom. ratio",
 		"value2018": "-0.684 979 34(16)",
 		"value2014": "-0.684 979 34(16)",
@@ -2736,7 +2735,7 @@ let codataObject = [
 		"value1998": "-0.684 979 34(16)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-proton mass difference",
 		"unit": "kg",
 		"exponent": "-30",
@@ -2748,7 +2747,7 @@ let codataObject = [
 		"value1998": "2.305 573 16(98)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-proton mass difference energy equivalent",
 		"unit": "J",
 		"exponent": "-13",
@@ -2760,7 +2759,7 @@ let codataObject = [
 		"value1998": "2.072 145 81(88)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-proton mass difference energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "1.293 332 36(46)",
@@ -2771,7 +2770,7 @@ let codataObject = [
 		"value1998": "1.293 331 83(54)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-proton mass difference in u",
 		"unit": "u",
 		"exponent": "-3",
@@ -2783,7 +2782,7 @@ let codataObject = [
 		"value1998": "1.388 448 89(58)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-proton mass ratio",
 		"value2018": "1.001 378 419 31(49)",
 		"value2014": "1.001 378 418 98(51)",
@@ -2793,7 +2792,7 @@ let codataObject = [
 		"value1998": "1.001 378 418 87(58)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron relative atomic mass",
 		"unit": "u",
 		"value2018": "1.008 664 915 95(49)",
@@ -2804,7 +2803,7 @@ let codataObject = [
 		"value1998": "1.008 664 915 78(55)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron-tau mass ratio",
 		"value2018": "0.528 779(36)",
 		"value2014": "0.528 790(48)",
@@ -2814,7 +2813,7 @@ let codataObject = [
 		"value1998": "0.528 722(86)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron to shielded proton mag. mom. ratio",
 		"value2018": "-0.684 996 94(16)",
 		"value2014": "-0.684 996 94(16)",
@@ -2991,7 +2990,7 @@ let codataObject = [
 		"value1998": "5.3906(40)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton charge to mass quotient",
 		"unit": "C kg^-1",
 		"exponent": "7",
@@ -3003,7 +3002,7 @@ let codataObject = [
 		"value1998": "9.578 834 08(38)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
@@ -3015,7 +3014,7 @@ let codataObject = [
 		"value1998": "1.321 409 847(10)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton-electron mass ratio",
 		"value2018": "1836.152 673 43(11)",
 		"value2014": "1836.152 673 89(17)",
@@ -3025,7 +3024,7 @@ let codataObject = [
 		"value1998": "1836.152 6675(39)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton g factor",
 		"value2018": "5.585 694 6893(16)",
 		"value2014": "5.585 694 702(17)",
@@ -3035,7 +3034,7 @@ let codataObject = [
 		"value1998": "5.585 694 675(57)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
@@ -3047,7 +3046,7 @@ let codataObject = [
 		"value1998": "2.675 222 12(11)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2018": "42.577 478 518(18)",
@@ -3058,7 +3057,7 @@ let codataObject = [
 		"value1998": "42.577 4825(18)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
@@ -3070,7 +3069,7 @@ let codataObject = [
 		"value1998": "1.410 606 633(58)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "1.521 032 202 30(46)",
@@ -3081,7 +3080,7 @@ let codataObject = [
 		"value1998": "1.521 032 203(15)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mag. mom. to nuclear magneton ratio",
 		"value2018": "2.792 847 344 63(82)",
 		"value2014": "2.792 847 3508(85)",
@@ -3091,7 +3090,7 @@ let codataObject = [
 		"value1998": "2.792 847 337(29)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mag. shielding correction",
 		"exponent": "-5",
 		"value2018": "2.5689(11)",
@@ -3102,7 +3101,7 @@ let codataObject = [
 		"value1998": "2.5687(15)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -3114,7 +3113,7 @@ let codataObject = [
 		"value1998": "1.672 621 58(13)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -3126,7 +3125,7 @@ let codataObject = [
 		"value1998": "1.503 277 31(12)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "938.272 088 16(29)",
@@ -3137,7 +3136,7 @@ let codataObject = [
 		"value1998": "938.271 998(38)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton mass in u",
 		"unit": "u",
 		"value2018": "1.007 276 466 621(53)",
@@ -3148,7 +3147,7 @@ let codataObject = [
 		"value1998": "1.007 276 466 88(13)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -3160,7 +3159,7 @@ let codataObject = [
 		"value1998": "1.007 276 466 88(13)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton-muon mass ratio",
 		"value2018": "8.880 243 37(20)",
 		"value2014": "8.880 243 38(20)",
@@ -3170,7 +3169,7 @@ let codataObject = [
 		"value1998": "8.880 244 08(27)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton-neutron mag. mom. ratio",
 		"value2018": "-1.459 898 05(34)",
 		"value2014": "-1.459 898 05(34)",
@@ -3180,7 +3179,7 @@ let codataObject = [
 		"value1998": "-1.459 898 05(34)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton-neutron mass ratio",
 		"value2018": "0.998 623 478 12(49)",
 		"value2014": "0.998 623 478 44(51)",
@@ -3190,7 +3189,7 @@ let codataObject = [
 		"value1998": "0.998 623 478 55(58)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton relative atomic mass",
 		"unit": "u",
 		"value2018": "1.007 276 466 621(53)",
@@ -3201,7 +3200,7 @@ let codataObject = [
 		"value1998": "1.007 276 466 88(13)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton rms charge radius",
 		"unit": "m",
 		"exponent": "-16",
@@ -3213,7 +3212,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton-tau mass ratio",
 		"value2018": "0.528 051(36)",
 		"value2014": "0.528 063(48)",
@@ -3223,7 +3222,7 @@ let codataObject = [
 		"value1998": "0.527 994(86)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "quantum of circulation",
 		"unit": "m^2 s^-1",
 		"exponent": "-4",
@@ -3235,7 +3234,7 @@ let codataObject = [
 		"value1998": "3.636 947 516(27)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "quantum of circulation times 2",
 		"unit": "m^2 s^-1",
 		"exponent": "-4",
@@ -3247,7 +3246,7 @@ let codataObject = [
 		"value1998": "7.273 895 032(53)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "reduced Compton wavelength",
 		"unit": "m",
 		"exponent": "-13",
@@ -3259,7 +3258,7 @@ let codataObject = [
 		"value1998": "3.861 592 642(28)"
 	},
 	{
-		"category": "Muon",
+		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "reduced muon Compton wavelength",
 		"unit": "m",
 		"exponent": "-15",
@@ -3271,7 +3270,7 @@ let codataObject = [
 		"value1998": "1.867 594 444(55)"
 	},
 	{
-		"category": "Neutron",
+		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "reduced neutron Compton wavelength",
 		"unit": "m",
 		"exponent": "-16",
@@ -3318,7 +3317,7 @@ let codataObject = [
 		"value1998": "197.326 9601(78)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "reduced proton Compton wavelength",
 		"unit": "m",
 		"exponent": "-16",
@@ -3330,7 +3329,7 @@ let codataObject = [
 		"value1998": "2.103 089 089(16)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "reduced tau Compton wavelength",
 		"unit": "m",
 		"exponent": "-16",
@@ -3342,7 +3341,7 @@ let codataObject = [
 		"value1998": "1.110 42(18)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Rydberg constant",
 		"unit": "m^-1",
 		"value2018": "10 973 731.568 160(21)",
@@ -3353,7 +3352,7 @@ let codataObject = [
 		"value1998": "10 973 731.568 549(83)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Rydberg constant times c in Hz",
 		"unit": "Hz",
 		"exponent": "15",
@@ -3365,7 +3364,7 @@ let codataObject = [
 		"value1998": "3.289 841 960 368(25)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Rydberg constant times hc in eV",
 		"unit": "eV",
 		"value2018": "13.605 693 122 994(26)",
@@ -3376,7 +3375,7 @@ let codataObject = [
 		"value1998": "13.605 691 72(53)"
 	},
 	{
-		"category": "General",
+		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Rydberg constant times hc in J",
 		"unit": "J",
 		"exponent": "-18",
@@ -3420,7 +3419,7 @@ let codataObject = [
 		"value1998": "1.438 7752(25)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
@@ -3432,7 +3431,7 @@ let codataObject = [
 		"value1998": "2.037 894 764(85)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2018": "32.434 099 42(38)",
@@ -3443,7 +3442,7 @@ let codataObject = [
 		"value1998": "32.434 1025(14)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
@@ -3455,7 +3454,7 @@ let codataObject = [
 		"value1998": "-1.074 552 967(45)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "-1.158 671 471(14)",
@@ -3466,7 +3465,7 @@ let codataObject = [
 		"value1998": "-1.158 671 474(14)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion mag. mom. to nuclear magneton ratio",
 		"value2018": "-2.127 497 719(25)",
 		"value2014": "-2.127 497 720(25)",
@@ -3476,7 +3475,7 @@ let codataObject = [
 		"value1998": "-2.127 497 718(25)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion to proton mag. mom. ratio",
 		"value2018": "-0.761 766 5618(89)",
 		"value2014": "-0.761 766 5603(92)",
@@ -3486,7 +3485,7 @@ let codataObject = [
 		"value1998": "-0.761 766 563(12)"
 	},
 	{
-		"category": "Helion",
+		"category": "ATOMIC AND NUCLEAR # Helion",
 		"name": "shielded helion to shielded proton mag. mom. ratio",
 		"value2018": "-0.761 786 1313(33)",
 		"value2014": "-0.761 786 1313(33)",
@@ -3496,7 +3495,7 @@ let codataObject = [
 		"value1998": "-0.761 786 1313(33)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "shielded proton gyromag. ratio",
 		"unit": "s^-1 T^-1",
 		"exponent": "8",
@@ -3508,7 +3507,7 @@ let codataObject = [
 		"value1998": "2.675 153 41(11)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "shielded proton gyromag. ratio in MHz/T",
 		"unit": "MHz T^-1",
 		"value2018": "42.576 384 74(46)",
@@ -3519,7 +3518,7 @@ let codataObject = [
 		"value1998": "42.576 3888(18)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "shielded proton mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
@@ -3531,7 +3530,7 @@ let codataObject = [
 		"value1998": "1.410 570 399(59)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "shielded proton mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "1.520 993 128(17)",
@@ -3542,7 +3541,7 @@ let codataObject = [
 		"value1998": "1.520 993 132(16)"
 	},
 	{
-		"category": "Proton",
+		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "shielded proton mag. mom. to nuclear magneton ratio",
 		"value2018": "2.792 775 599(30)",
 		"value2014": "2.792 775 600(30)",
@@ -3552,16 +3551,14 @@ let codataObject = [
 		"value1998": "2.792 775 597(31)"
 	},
 	{
-		"category": "Deuteron",
+		"category": "ATOMIC AND NUCLEAR # Deuteron",
 		"name": "shielding difference of d and p in HD",
-		"unit": "",
 		"exponent": "-8",
 		"value2018": "2.0200(20)"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "shielding difference of t and p in HT",
-		"unit": "",
 		"exponent": "-8",
 		"value2018": "2.4140(20)"
 	},
@@ -3622,7 +3619,7 @@ let codataObject = [
 		"value1998": "5.670 400(40)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau Compton wavelength",
 		"unit": "m",
 		"exponent": "-16",
@@ -3634,7 +3631,7 @@ let codataObject = [
 		"value1998": "6.9770(11)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau-electron mass ratio",
 		"value2018": "3477.23(23)",
 		"value2014": "3477.15(31)",
@@ -3644,7 +3641,7 @@ let codataObject = [
 		"value1998": "3477.60(57)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau energy equivalent",
 		"unit": "MeV",
 		"value2018": "1776.86(12)",
@@ -3655,7 +3652,7 @@ let codataObject = [
 		"value1998": "1777.05(29)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -3667,7 +3664,7 @@ let codataObject = [
 		"value1998": "3.167 88(52)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -3679,7 +3676,7 @@ let codataObject = [
 		"value1998": "2.847 15(46)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau mass in u",
 		"unit": "u",
 		"value2018": "1.907 54(13)",
@@ -3690,7 +3687,7 @@ let codataObject = [
 		"value1998": "1.907 74(31)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -3702,7 +3699,7 @@ let codataObject = [
 		"value1998": "1.907 74(31)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau-muon mass ratio",
 		"value2018": "16.8170(11)",
 		"value2014": "16.8167(15)",
@@ -3712,7 +3709,7 @@ let codataObject = [
 		"value1998": "16.8188(27)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau-neutron mass ratio",
 		"value2018": "1.891 15(13)",
 		"value2014": "1.891 11(17)",
@@ -3722,7 +3719,7 @@ let codataObject = [
 		"value1998": "1.891 35(31)"
 	},
 	{
-		"category": "Tau",
+		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau-proton mass ratio",
 		"value2018": "1.893 76(13)",
 		"value2014": "1.893 72(17)",
@@ -3732,7 +3729,7 @@ let codataObject = [
 		"value1998": "1.893 96(31)"
 	},
 	{
-		"category": "Electron",
+		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "Thomson cross section",
 		"unit": "m^2",
 		"exponent": "-29",
@@ -3744,7 +3741,7 @@ let codataObject = [
 		"value1998": "6.652 458 54(15)"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton-electron mass ratio",
 		"value2018": "5496.921 535 73(27)",
 		"value2014": "5496.921 535 88(26)",
@@ -3754,7 +3751,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton g factor",
 		"value2018": "5.957 924 931(12)",
 		"value2014": "5.957 924 920(28)",
@@ -3764,7 +3761,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mag. mom.",
 		"unit": "J T^-1",
 		"exponent": "-26",
@@ -3776,7 +3773,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mag. mom. to Bohr magneton ratio",
 		"exponent": "-3",
 		"value2018": "1.622 393 6651(32)",
@@ -3787,7 +3784,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mag. mom. to nuclear magneton ratio",
 		"value2018": "2.978 962 4656(59)",
 		"value2014": "2.978 962 460(14)",
@@ -3797,7 +3794,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mass",
 		"unit": "kg",
 		"exponent": "-27",
@@ -3809,7 +3806,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mass energy equivalent",
 		"unit": "J",
 		"exponent": "-10",
@@ -3821,7 +3818,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mass energy equivalent in MeV",
 		"unit": "MeV",
 		"value2018": "2808.921 132 98(85)",
@@ -3832,7 +3829,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton mass in u",
 		"unit": "u",
 		"value2018": "3.015 500 716 21(12)",
@@ -3843,7 +3840,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton molar mass",
 		"unit": "kg mol^-1",
 		"exponent": "-3",
@@ -3855,7 +3852,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton-proton mass ratio",
 		"value2018": "2.993 717 034 14(15)",
 		"value2014": "2.993 717 033 48(22)",
@@ -3865,7 +3862,7 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton relative atomic mass",
 		"unit": "u",
 		"value2018": "3.015 500 716 21(12)",
@@ -3876,13 +3873,12 @@ let codataObject = [
 		"value1998": "no data"
 	},
 	{
-		"category": "Triton",
+		"category": "ATOMIC AND NUCLEAR # Triton",
 		"name": "triton to proton mag. mom. ratio",
-		"unit": "",
 		"value2018": "1.066 639 9191(21)"
 	},
 	{
-		"category": "NON-SI UNITS",
+		"category": "NON-SI UNITS # Accepted",
 		"name": "unified atomic mass unit",
 		"unit": "kg",
 		"exponent": "-27",
@@ -3929,7 +3925,7 @@ let codataObject = [
 		"value1998": "25 812.807 572(95)"
 	},
 	{
-		"category": "Electroweak",
+		"category": "ATOMIC AND NUCLEAR # Electroweak",
 		"name": "weak mixing angle",
 		"value2018": "0.222 90(30)",
 		"value2014": "0.2223(21)",
@@ -3963,9 +3959,8 @@ let codataObject = [
 		"value1998": "2.897 7686(51)"
 	},
 	{
-		"category": "Electroweak",
+		"category": "ATOMIC AND NUCLEAR # Electroweak",
 		"name": "W to Z mass ratio",
-		"unit": "",
 		"value2018": "0.881 53(17)"
 	}
 ];

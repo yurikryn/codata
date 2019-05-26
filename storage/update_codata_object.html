@@ -27,7 +27,7 @@
 				codata2018Object.push({
 					category: "TODO",
 					name,
-					unit,
+					unit: unit || undefined,
 					exponent,
 					value2018: `${value}${(uncertainty !== undefined) ? `(${uncertainty})` : ``}`
 				});
