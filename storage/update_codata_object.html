@@ -20,15 +20,20 @@
 	<script src="test-codata-object.js"></script>
 
 	<script src="update-codata-object.js"></script>
+	<script src="sort-codata-object.js"></script>
 	<script src="get-codata-object-json.js"></script>
 
 	<script>
 		const codata2018Object = getCodata2018Object(codata2018List);
+
 		testCodataObject(codataObject, codata2018Object);
-		codataObject = updateCodataObject(codataObject, codata2018Object);
-		const codataObjectJSON = getCodataObjectJSON(codataObject);
+
+		const newCodataObject = updateCodataObject(codataObject, codata2018Object);
+		sortCodataObject(newCodataObject);
+		
+		const codataObjectJSON = getCodataObjectJSON(newCodataObject);
 		viewCodataObjectJSON(codataObjectJSON);
-		saveCodataObjectJSON(codataObjectJSON);
+		saveCodataObjectJSON(codataObjectJSON, "codata-object-new.js");
 	</script>
 </body>
 
