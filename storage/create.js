@@ -1,9 +1,9 @@
-function getCodata2018Object(codata2018List) {
+function create(newCodataList, valueName) {
     
     const output = [];
     const pattern = /^(?<name>[^*].*?)(?:\x20{2,})(?<value>-?\d[.\d\x20]*?)(?:\x20e(?<exponent>-?\d+))?(?:\x20{2,})(?:\(exact\)|0\.(?<unc_shift>[0\x20]*)(?<uncertainty>[1-9]\d*))(?:\x20e(?<unc_exp>-?\d+))?(?:\x20{2,})(?<unit>.*)$/gm;
     let res, i = 0;
-    while (res = pattern.exec(codata2018List)) {
+    while (res = pattern.exec(newCodataList)) {
         ++i;
         const { name, value, exponent, unc_shift, uncertainty, unc_exp, unit } = res.groups;
 
@@ -16,8 +16,9 @@ function getCodata2018Object(codata2018List) {
             name,
             unit: unit || undefined,
             exponent,
-            value2018: `${value}${(uncertainty !== undefined) ? `(${uncertainty})` : ``}`
+            [valueName]: `${value}${(uncertainty !== undefined) ? `(${uncertainty})` : ``}`
         });
     }
+    console.log("create");
     return output;
 };

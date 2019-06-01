@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<script>"use strict"</script>
+
+	<button id="save-button">Save to file</button>
+	<a id="save-anchor" hidden></a>
+	<h1>newCodataObject:</h1>
+	<pre id="view"></pre>
+
+	<script src="codata-2018-list.js"></script>
+	<script src="codata-object.js"></script>
+
+	<script src="create.js"></script>
+	<script src="merge.js"></script>
+	<script src="sort.js"></script>
+	<script src="view.js"></script>
+	<script src="save.js"></script>
+
+	<script>
+		const newCodataObject = create(codata2018List, `value2018`);
+		merge(newCodataObject, codataObject);
+		sort(newCodataObject);
+		view(newCodataObject);
+		save(newCodataObject, "codata-object-new.js");
+	</script>
+</body>
+
+</html>
