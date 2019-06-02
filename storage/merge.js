@@ -1,5 +1,7 @@
 function merge(newCodataObject, codataObject) {
 
+    console.log(`LIST OF OLD UNMERGED CONSTANTS:`);
+
     let j = 0;
     for (let entity of codataObject) {
         const { category, name, unit, exponent, ...oldValues } = entity;
@@ -8,8 +10,8 @@ function merge(newCodataObject, codataObject) {
             if (name === newEntity.name) {
                 ++j; ++k;
 
-                if ( (unit || newEntity.unit) && (unit !== newEntity.unit) ) { alert(`${name}: unit problem ${unit}, ${newEntity.unit}`); return; }// TEST
-                if ( (exponent || newEntity.exponent) && (exponent !== newEntity.exponent) ) { alert(`${name}: exponent problem ${exponent}, ${newEntity.exponent}`); return; }// TEST
+                if ((unit || newEntity.unit) && (unit !== newEntity.unit)) { alert(`${name}: unit problem ${unit}, ${newEntity.unit}`); return; }// TEST
+                if ((exponent || newEntity.exponent) && (exponent !== newEntity.exponent)) { alert(`${name}: exponent problem ${exponent}, ${newEntity.exponent}`); return; }// TEST
 
                 newEntity.category = category;
                 for (let key in oldValues) {
@@ -20,28 +22,29 @@ function merge(newCodataObject, codataObject) {
             }
         }
         if (k === 0) {
-            console.log(name);
+            console.log(`\t${name}`);
         }
     }
 
-    console.log(`**************************`);
-    console.log(`Number of merged entities = ${j}`);
-    console.log(`Number of all entities = ${codataObject.length}`);
-    if (j !== codataObject.length) { console.log(`CORRECT OR REMOVE ENTITIES LISTED ABOVE IN codata-object.js !!!`) }
-    else { console.log(`ALL ENTITIES MERGED`) }
-    console.log(`**************************`);
+    if (j !== codataObject.length) { console.log(`CORRECT OR REMOVE OLD UNMERGED CONSTANTS !!!`); }
+
+    console.log(`####################################################`);
+
+    console.log(`LIST OF NEW UNMERGED CONSTANTS:`);
 
     for (let newEntity of newCodataObject) {
         if (newEntity.category === "TODO") {
-            console.log(newEntity.name);
+            console.log(`\t${newEntity.name}`);
         }
     }
 
-    console.log(`**************************`);
-    console.log(`Number of merged entities = ${j}`);
-    console.log(`Number of all newEntities = ${newCodataObject.length}`);
-    if (j !== newCodataObject.length) { console.log(`REPLACE TODO CATEGORY IN new-codata-object.js !!!`) }
-    else { console.log(`ALL CATEGORIES ARE SET`) }
-    console.log(`**************************`);
+
+    if (j !== newCodataObject.length) { console.log(`REPLACE TODO IN NEW UNMERGED CONSTANTS !!!`); }
+
+    console.log(`####################################################`);
+
+    console.log(`Number of new constants = ${newCodataObject.length}`);
+    console.log(`Number of old constants = ${codataObject.length}`);
+    console.log(`Number of merged constants = ${j}`);
 
 };
