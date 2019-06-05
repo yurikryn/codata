@@ -1,13 +1,14 @@
 function create(newCodataList, valueName) {
 
     const output = [];
-    const pattern = /^(?:(?<name>\S+(?:\x20\S+)*)(?:\x20{2,})(?<value>-?(?:[1-9]\d{0,3}(?:\x20\d{3})*|0)(?:\.(?:\d{3}\x20)*\d{1,4}(?:\.{3})?)?)(?:\x20e(?<exponent>-?[1-9]\d?))?(?:\x20{2,})(?:\(exact\)|(?<uncertainty>0\.(?:0{3}\x20)*0{0,3}(?<uncertaintyTail>[1-9]\d?)))(?:\x20e\k<exponent>)?(?:\x20{2,})(?<unit>[-\d\w^_\x20()/]+)?|(?<row>.*?))$/gm;
+    const pattern = /^(?:(?<name>\S+(?:\x20\S+)*)(?:\x20{2,})(?<value>-?(?:[1-9]\d{0,2}(?:\x20\d{3})+|[1-9]\d{0,3}|0)(?<valDec>\.(?:\d{3}\x20)*\d{1,4}(?<dots>\.{3})?)?)(?<expField>\x20e(?<exponent>-?[1-9]\d?)|)(?:\x20{2,})(?:\(exact\)|(?<uncertainty>0(?:\.(?:0{3}\x20)*(?:(?=[1-9]\d\x20)|0{1,2}|0{3}(?=[1-9]\x20))|\.)(?<uncertaintyTail>[1-9]\d?))\k<expField>)(?:\x20{2,})(?<unit>[-\d\w^_\x20()/]+)?|(?<row>.*?))$/gm;
 
     while (res = pattern.exec(newCodataList)) {
 
-        const { name, value, exponent, uncertainty, uncertaintyTail, unit, row } = res.groups;
+        const { name, value, valDec, dots, exponent, uncertainty, uncertaintyTail, unit, row } = res.groups;
+        console.log(res.groups);
 
-        if (row) { alert(`SOMETHING WRONG IN NEW CONSTANTS !!!\n"${row}"`); break; }
+        if (row || dots && uncertainty || uncertainty && (uncertainty.length !== (valDec.length + 1))) { alert(`SOMETHING WRONG IN NEW CONSTANTS !!!\n"${row}"`); break; }
 
         output.push({
             category: "TODO",
