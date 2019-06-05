@@ -1,7 +1,9 @@
 function create(newCodataList, valueName) {
 
     const output = [];
-    const pattern = /^(?:(?<name>\S+(?:\x20\S+)*)(?:\x20{2,})(?<value>-?(?:[1-9]\d{0,2}(?:\x20\d{3})+|[1-9]\d{0,3}|0)(?<valDec>\.(?:\d{3}\x20)*\d{1,4}(?<dots>\.{3})?)?)(?<expField>\x20e(?<exponent>-?[1-9]\d?)|)(?:\x20{2,})(?:\(exact\)|(?<uncertainty>0(?:\.(?:0{3}\x20)*(?:(?=[1-9]\d)|0{1,2}|0{3}(?=[1-9]\x20))|\.)(?<uncertaintyTail>[1-9]\d?))\k<expField>)(?:\x20{2,})(?<unit>[-\d\w^_\x20()/]+)?|(?<row>.*?))$/gm;
+
+    const pattern =
+        /^(?:(?<name>\S+(?:\x20\S+)*)(?:\x20{2,})(?<value>-?(?:[1-9]\d{0,2}(?:\x20\d{3})+|[1-9]\d{0,3}|0)(?<valDec>\.(?:\d{3}\x20)*\d{1,4}(?<dots>\.{3})?)?)(?<expField>\x20e(?<exponent>-?[1-9]\d?)|)(?:\x20{2,})(?:\(exact\)|(?<uncertainty>0(?:\.(?:0{3}\x20)*(?:(?=[1-9]\d)|0{1,2}|0{3}(?=[1-9]\x20))|\.)(?<uncertaintyTail>[1-9]\d?))\k<expField>)(?:\x20{2,})(?<unit>[a-zA-Z]+(?:\^(?:[2-9]|-[1-9]))?(?:\x20[a-zA-Z]+(?:\^(?:[2-9]|-[1-9]))?)*|E_h|Hz\x20V_90\^-1|ohm_90|MeV\/c|\(GeV\/c\^2\)\^-2)?|(?<row>.*?))$/gm;
 
     while (res = pattern.exec(newCodataList)) {
 
