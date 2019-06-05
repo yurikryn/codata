@@ -1,6 +1,6 @@
 function merge(newCodataObject, codataObject) {
 
-    console.log(`LIST OF OLD UNMERGED CONSTANTS:`);
+    console.log(`List Of Unmerged Old Constants:`);
 
     let j = 0;
     for (let entity of codataObject) {
@@ -26,11 +26,11 @@ function merge(newCodataObject, codataObject) {
         }
     }
 
-    if (j !== codataObject.length) { console.log(`CORRECT OR REMOVE OLD UNMERGED CONSTANTS !!!`); }
+    if (j !== codataObject.length) { console.log(`Correct Or Remove Unmerged Old Constants !!!`); }
 
     console.log(`####################################################`);
 
-    console.log(`LIST OF NEW UNMERGED CONSTANTS:`);
+    console.log(`List Of New Constants:`);
 
     for (let newEntity of newCodataObject) {
         if (newEntity.category === "TODO") {
@@ -39,11 +39,11 @@ function merge(newCodataObject, codataObject) {
     }
 
 
-    if (j !== newCodataObject.length) { console.log(`REPLACE TODO IN NEW UNMERGED CONSTANTS !!!`); }
+    if (j !== newCodataObject.length) { console.log(`Replace TODO In New Constants !!!`); }
 
     console.log(`####################################################`);
 
-    console.log(`Number of new constants = ${newCodataObject.length}`);
+    console.log(`Number of constants = ${newCodataObject.length}`);
     console.log(`Number of old constants = ${codataObject.length}`);
     console.log(`Number of merged constants = ${j}`);
 
