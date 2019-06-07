@@ -15,13 +15,14 @@
 	<script src="create.js"></script>
 	<script src="merge.js"></script>
 	<script src="sort.js"></script>
+	<script src="sort2.js"></script>
 	<script src="view.js"></script>
 	<script src="save.js"></script>
 
 	<script>
 		const newCodataObject = create(codata2018List, `value2018`);
 		merge(newCodataObject, codataObject);
-		sort(newCodataObject);
+		sort2(newCodataObject);
 		view(newCodataObject);
 		save(newCodataObject, "codata-object-new.js");
 	</script>
