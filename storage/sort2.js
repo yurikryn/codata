@@ -25,7 +25,9 @@ function sort2(newCodataObject) {
 			"ADOPTED VALUES": 20,
 			"TODO": 21
 		}
-		if ((parseFloat(a.relative) || 0) > (parseFloat(b.relative) || 0)) { return 1 }
+		if ((parseFloat(a.relative2) || 0) > (parseFloat(b.relative2) || 0)) { return 1 }
+		else if ((parseFloat(a.relative2) || 0) < (parseFloat(b.relative2) || 0)) { return -1 }
+		else if ((parseFloat(a.relative) || 0) > (parseFloat(b.relative) || 0)) { return 1 }
 		else if ((parseFloat(a.relative) || 0) < (parseFloat(b.relative) || 0)) { return -1 }
 		else if (categoryRank[a.category] - categoryRank[b.category] > 0) { return 1; }
 		else if (categoryRank[a.category] - categoryRank[b.category] < 0) { return -1; }
