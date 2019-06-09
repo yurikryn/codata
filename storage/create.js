@@ -20,9 +20,9 @@ function create(newCodataList, valueName) {
             name,
             unit,
             exponent,
-            // relative: uncertainty && `${+(uncertainty.replace(/\x20/g, ``) / value.replace(/\x20/g, ``) * 10 ** 9).toPrecision(2).replace(/^-/, ``)} ppb`,
-            relative2: uncertainty && `${+(0.5 / value.replace(/[\.\x20]/g, ``) * 10 ** 9).toPrecision(4).replace(/^-/, ``)} ppb`,
-            relative: uncertainty && `${+(uncertaintyTail / value.replace(/[\.\x20]/g, ``) * 10 ** 9).toPrecision(2).replace(/^-/, ``)} ppb`,
+            //relative: uncertainty && `${+(uncertainty.replace(/\x20/g, ``) / value.replace(/\x20/g, ``) * 10 ** 9).toPrecision(2).replace(/^-/, ``)} ppb`,
+            //relative2: uncertainty && `${+(0.5 / value.replace(/[\.\x20]/g, ``) * 10 ** 9).toPrecision(4).replace(/^-/, ``)} ppb`,
+            relative: uncertainty && `${+(uncertaintyTail / value.replace(/[\.\x20]/g, ``) * 10 ** 9).toPrecision(5).replace(/^-/, ``)} ppb`,
             [valueName]: `${value}${(uncertainty !== undefined) ? `(${uncertaintyTail})` : ``}`
         });
     }
