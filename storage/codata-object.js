@@ -227,7 +227,7 @@ let codataObject = [
 	{
 		"category": "ELECTROMAGNETIC",
 		"name": "Bohr magneton in inverse meter per tesla",
-		"unit": "m^-1 T^-1",
+		"unit": "[m]^-1 T^-1",
 		"value2018": "46.686 447 783(14)",
 		"value2014": "46.686 448 14(29)",
 		"value2010": "46.686 4498(10)",
@@ -356,7 +356,7 @@ let codataObject = [
 	{
 		"category": "ELECTROMAGNETIC",
 		"name": "nuclear magneton in inverse meter per tesla",
-		"unit": "m^-1 T^-1",
+		"unit": "[m]^-1 T^-1",
 		"exponent": "-2",
 		"value2018": "2.542 623 413 53(78)",
 		"value2014": "2.542 623 432(16)",
@@ -414,7 +414,7 @@ let codataObject = [
 	{
 		"category": "ATOMIC AND NUCLEAR # General",
 		"name": "Rydberg constant",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"value2018": "10 973 731.568 160(21)",
 		"value2014": "10 973 731.568 508(65)",
 		"value2010": "10 973 731.568 539(55)",
@@ -532,7 +532,7 @@ let codataObject = [
 	{
 		"category": "ATOMIC AND NUCLEAR # Electron",
 		"name": "Compton wavelength",
-		"unit": "m",
+		"unit": "[m]",
 		"exponent": "-12",
 		"value2018": "2.426 310 238 67(73)",
 		"value2014": "2.426 310 2367(11)",
@@ -886,7 +886,7 @@ let codataObject = [
 	{
 		"category": "ATOMIC AND NUCLEAR # Muon",
 		"name": "muon Compton wavelength",
-		"unit": "m",
+		"unit": "[m]",
 		"exponent": "-14",
 		"value2018": "1.173 444 110(26)",
 		"value2014": "1.173 444 111(26)",
@@ -1085,7 +1085,7 @@ let codataObject = [
 	{
 		"category": "ATOMIC AND NUCLEAR # Tau",
 		"name": "tau Compton wavelength",
-		"unit": "m",
+		"unit": "[m]",
 		"exponent": "-16",
 		"value2018": "6.977 71(47)",
 		"value2014": "6.977 87(63)",
@@ -1195,7 +1195,7 @@ let codataObject = [
 	{
 		"category": "ATOMIC AND NUCLEAR # Proton",
 		"name": "proton Compton wavelength",
-		"unit": "m",
+		"unit": "[m]",
 		"exponent": "-15",
 		"value2018": "1.321 409 855 39(40)",
 		"value2014": "1.321 409 853 96(61)",
@@ -1494,7 +1494,7 @@ let codataObject = [
 	{
 		"category": "ATOMIC AND NUCLEAR # Neutron",
 		"name": "neutron Compton wavelength",
-		"unit": "m",
+		"unit": "[m]",
 		"exponent": "-15",
 		"value2018": "1.319 590 905 81(75)",
 		"value2014": "1.319 590 904 81(88)",
@@ -2441,7 +2441,7 @@ let codataObject = [
 	{
 		"category": "PHYSICOCHEMICAL",
 		"name": "Boltzmann constant in inverse meter per kelvin",
-		"unit": "m^-1 K^-1",
+		"unit": "[m]^-1 K^-1",
 		"value2018": "69.503 480 04...",
 		"value2014": "69.503 457(40)",
 		"value2010": "69.503 476(63)",
@@ -2531,7 +2531,7 @@ let codataObject = [
 	{
 		"category": "PHYSICOCHEMICAL",
 		"name": "Wien wavelength displacement law constant",
-		"unit": "m K",
+		"unit": "[m] K",
 		"exponent": "-3",
 		"value2018": "2.897 771 955...",
 		"value2014": "2.897 7729(17)",
@@ -2578,7 +2578,7 @@ let codataObject = [
 	{
 		"category": "PHYSICOCHEMICAL",
 		"name": "first radiation constant",
-		"unit": "W m^2",
+		"unit": "W m^-2 [m]^4",
 		"exponent": "-16",
 		"value2018": "3.741 771 852...",
 		"value2014": "3.741 771 790(46)",
@@ -2590,7 +2590,7 @@ let codataObject = [
 	{
 		"category": "PHYSICOCHEMICAL",
 		"name": "first radiation constant for spectral radiance",
-		"unit": "W m^2 sr^-1",
+		"unit": "W m^-2 [m]^4 sr^-1",
 		"exponent": "-16",
 		"value2018": "1.191 042 972...",
 		"value2014": "1.191 042 953(15)",
@@ -2673,7 +2673,7 @@ let codataObject = [
 	{
 		"category": "PHYSICOCHEMICAL",
 		"name": "second radiation constant",
-		"unit": "m K",
+		"unit": "[m] K",
 		"exponent": "-2",
 		"value2018": "1.438 776 877...",
 		"value2014": "1.438 777 36(83)",
@@ -2815,7 +2815,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "atomic mass unit-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"exponent": "14",
 		"value2018": "7.513 006 6104(23)",
 		"value2014": "7.513 006 6166(34)",
@@ -2899,7 +2899,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "electron volt-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"exponent": "5",
 		"value2018": "8.065 543 937...",
 		"value2014": "8.065 544 005(50)",
@@ -2982,7 +2982,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "hartree-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"exponent": "7",
 		"value2018": "2.194 746 313 6320(43)",
 		"value2014": "2.194 746 313 702(13)",
@@ -3066,7 +3066,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "hertz-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"exponent": "-9",
 		"value2018": "3.335 640 951...",
 		"value2014": "3.335 640 951...",
@@ -3245,7 +3245,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "joule-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"exponent": "24",
 		"value2018": "5.034 116 567...",
 		"value2014": "5.034 116 651(62)",
@@ -3329,7 +3329,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "kelvin-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"value2018": "69.503 480 04...",
 		"value2014": "69.503 457(40)",
 		"value2010": "69.503 476(63)",
@@ -3412,7 +3412,7 @@ let codataObject = [
 	{
 		"category": "CONVERSION FACTORS",
 		"name": "kilogram-inverse meter relationship",
-		"unit": "m^-1",
+		"unit": "[m]^-1",
 		"exponent": "41",
 		"value2018": "4.524 438 335...",
 		"value2014": "4.524 438 411(56)",
