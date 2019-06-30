@@ -14,7 +14,7 @@ atomic mass constant energy equivalent in MeV               931.494 102 42      
 atomic mass unit-electron volt relationship                 9.314 941 0242 e8        0.000 000 0028 e8        eV
 atomic mass unit-hartree relationship                       3.423 177 6874 e7        0.000 000 0010 e7        E_h
 atomic mass unit-hertz relationship                         2.252 342 718 71 e23     0.000 000 000 68 e23     Hz
-atomic mass unit-inverse meter relationship                 7.513 006 6104 e14       0.000 000 0023 e14       m^-1
+atomic mass unit-inverse meter relationship                 7.513 006 6104 e14       0.000 000 0023 e14       [m]^-1
 atomic mass unit-joule relationship                         1.492 418 085 60 e-10    0.000 000 000 45 e-10    J
 atomic mass unit-kelvin relationship                        1.080 954 019 16 e13     0.000 000 000 33 e13     K
 atomic mass unit-kilogram relationship                      1.660 539 066 60 e-27    0.000 000 000 50 e-27    kg
@@ -45,15 +45,15 @@ Avogadro constant                                           6.022 140 76 e23    
 Bohr magneton                                               9.274 010 0783 e-24      0.000 000 0028 e-24      J T^-1
 Bohr magneton in eV/T                                       5.788 381 8060 e-5       0.000 000 0017 e-5       eV T^-1
 Bohr magneton in Hz/T                                       1.399 624 493 61 e10     0.000 000 000 42 e10     Hz T^-1
-Bohr magneton in inverse meter per tesla                    46.686 447 783           0.000 000 014            m^-1 T^-1
+Bohr magneton in inverse meter per tesla                    46.686 447 783           0.000 000 014            [m]^-1 T^-1
 Bohr magneton in K/T                                        0.671 713 815 63         0.000 000 000 20         K T^-1
 Bohr radius                                                 5.291 772 109 03 e-11    0.000 000 000 80 e-11    m
 Boltzmann constant                                          1.380 649 e-23           (exact)                  J K^-1
 Boltzmann constant in eV/K                                  8.617 333 262... e-5     (exact)                  eV K^-1
 Boltzmann constant in Hz/K                                  2.083 661 912... e10     (exact)                  Hz K^-1
-Boltzmann constant in inverse meter per kelvin              69.503 480 04...         (exact)                  m^-1 K^-1
+Boltzmann constant in inverse meter per kelvin              69.503 480 04...         (exact)                  [m]^-1 K^-1
 classical electron radius                                   2.817 940 3262 e-15      0.000 000 0013 e-15      m
-Compton wavelength                                          2.426 310 238 67 e-12    0.000 000 000 73 e-12    m
+Compton wavelength                                          2.426 310 238 67 e-12    0.000 000 000 73 e-12    [m]
 conductance quantum                                         7.748 091 729... e-5     (exact)                  S
 conventional value of ampere-90                             1.000 000 088 87...      (exact)                  A
 conventional value of coulomb-90                            1.000 000 088 87...      (exact)                  C
@@ -113,7 +113,7 @@ electron volt                                               1.602 176 634 e-19  
 electron volt-atomic mass unit relationship                 1.073 544 102 33 e-9     0.000 000 000 32 e-9     u
 electron volt-hartree relationship                          3.674 932 217 5655 e-2   0.000 000 000 0071 e-2   E_h
 electron volt-hertz relationship                            2.417 989 242... e14     (exact)                  Hz
-electron volt-inverse meter relationship                    8.065 543 937... e5      (exact)                  m^-1
+electron volt-inverse meter relationship                    8.065 543 937... e5      (exact)                  [m]^-1
 electron volt-joule relationship                            1.602 176 634 e-19       (exact)                  J
 electron volt-kelvin relationship                           1.160 451 812... e4      (exact)                  K
 electron volt-kilogram relationship                         1.782 661 921... e-36    (exact)                  kg
@@ -122,14 +122,14 @@ elementary charge over h-bar                                1.519 267 447... e15
 Faraday constant                                            96 485.332 12...         (exact)                  C mol^-1
 Fermi coupling constant                                     1.166 3787 e-5           0.000 0006 e-5           GeV^-2
 fine-structure constant                                     7.297 352 5693 e-3       0.000 000 0011 e-3       
-first radiation constant                                    3.741 771 852... e-16    (exact)                  W m^2
-first radiation constant for spectral radiance              1.191 042 972... e-16    (exact)                  W m^2 sr^-1
+first radiation constant                                    3.741 771 852... e-16    (exact)                  W m^-2 [m]^4
+first radiation constant for spectral radiance              1.191 042 972... e-16    (exact)                  W m^-2 [m]^4 sr^-1
 hartree-atomic mass unit relationship                       2.921 262 322 05 e-8     0.000 000 000 88 e-8     u
 hartree-electron volt relationship                          27.211 386 245 988       0.000 000 000 053        eV
 Hartree energy                                              4.359 744 722 2071 e-18  0.000 000 000 0085 e-18  J
 Hartree energy in eV                                        27.211 386 245 988       0.000 000 000 053        eV
 hartree-hertz relationship                                  6.579 683 920 502 e15    0.000 000 000 013 e15    Hz
-hartree-inverse meter relationship                          2.194 746 313 6320 e7    0.000 000 000 0043 e7    m^-1
+hartree-inverse meter relationship                          2.194 746 313 6320 e7    0.000 000 000 0043 e7    [m]^-1
 hartree-joule relationship                                  4.359 744 722 2071 e-18  0.000 000 000 0085 e-18  J
 hartree-kelvin relationship                                 3.157 750 248 0407 e5    0.000 000 000 0061 e5    K
 hartree-kilogram relationship                               4.850 870 209 5432 e-35  0.000 000 000 0094 e-35  kg
@@ -149,7 +149,7 @@ helion shielding shift                                      5.996 743 e-5       
 hertz-atomic mass unit relationship                         4.439 821 6652 e-24      0.000 000 0013 e-24      u
 hertz-electron volt relationship                            4.135 667 696... e-15    (exact)                  eV
 hertz-hartree relationship                                  1.519 829 846 0570 e-16  0.000 000 000 0029 e-16  E_h
-hertz-inverse meter relationship                            3.335 640 951... e-9     (exact)                  m^-1
+hertz-inverse meter relationship                            3.335 640 951... e-9     (exact)                  [m]^-1
 hertz-joule relationship                                    6.626 070 15 e-34        (exact)                  J
 hertz-kelvin relationship                                   4.799 243 073... e-11    (exact)                  K
 hertz-kilogram relationship                                 7.372 497 323... e-51    (exact)                  kg
@@ -168,21 +168,21 @@ joule-atomic mass unit relationship                         6.700 535 2565 e9   
 joule-electron volt relationship                            6.241 509 074... e18     (exact)                  eV
 joule-hartree relationship                                  2.293 712 278 3963 e17   0.000 000 000 0045 e17   E_h
 joule-hertz relationship                                    1.509 190 179... e33     (exact)                  Hz
-joule-inverse meter relationship                            5.034 116 567... e24     (exact)                  m^-1
+joule-inverse meter relationship                            5.034 116 567... e24     (exact)                  [m]^-1
 joule-kelvin relationship                                   7.242 970 516... e22     (exact)                  K
 joule-kilogram relationship                                 1.112 650 056... e-17    (exact)                  kg
 kelvin-atomic mass unit relationship                        9.251 087 3014 e-14      0.000 000 0028 e-14      u
 kelvin-electron volt relationship                           8.617 333 262... e-5     (exact)                  eV
 kelvin-hartree relationship                                 3.166 811 563 4556 e-6   0.000 000 000 0061 e-6   E_h
 kelvin-hertz relationship                                   2.083 661 912... e10     (exact)                  Hz
-kelvin-inverse meter relationship                           69.503 480 04...         (exact)                  m^-1
+kelvin-inverse meter relationship                           69.503 480 04...         (exact)                  [m]^-1
 kelvin-joule relationship                                   1.380 649 e-23           (exact)                  J
 kelvin-kilogram relationship                                1.536 179 187... e-40    (exact)                  kg
 kilogram-atomic mass unit relationship                      6.022 140 7621 e26       0.000 000 0018 e26       u
 kilogram-electron volt relationship                         5.609 588 603... e35     (exact)                  eV
 kilogram-hartree relationship                               2.061 485 788 7409 e34   0.000 000 000 0040 e34   E_h
 kilogram-hertz relationship                                 1.356 392 489... e50     (exact)                  Hz
-kilogram-inverse meter relationship                         4.524 438 335... e41     (exact)                  m^-1
+kilogram-inverse meter relationship                         4.524 438 335... e41     (exact)                  [m]^-1
 kilogram-joule relationship                                 8.987 551 787... e16     (exact)                  J
 kilogram-kelvin relationship                                6.509 657 260... e39     (exact)                  K
 lattice parameter of silicon                                5.431 020 511 e-10       0.000 000 089 e-10       m
@@ -199,7 +199,7 @@ molar volume of ideal gas (273.15 K, 100 kPa)               22.710 954 64... e-3
 molar volume of ideal gas (273.15 K, 101.325 kPa)           22.413 969 54... e-3     (exact)                  m^3 mol^-1
 molar volume of silicon                                     1.205 883 199 e-5        0.000 000 060 e-5        m^3 mol^-1
 Mo x unit                                                   1.002 099 52 e-13        0.000 000 53 e-13        m
-muon Compton wavelength                                     1.173 444 110 e-14       0.000 000 026 e-14       m
+muon Compton wavelength                                     1.173 444 110 e-14       0.000 000 026 e-14       [m]
 muon-electron mass ratio                                    206.768 2830             0.000 0046               
 muon g factor                                               -2.002 331 8418          0.000 000 0013           
 muon mag. mom.                                              -4.490 448 30 e-26       0.000 000 10 e-26        J T^-1
@@ -225,7 +225,7 @@ natural unit of momentum                                    2.730 924 530 75 e-2
 natural unit of momentum in MeV/c                           0.510 998 950 00         0.000 000 000 15         MeV/c
 natural unit of time                                        1.288 088 668 19 e-21    0.000 000 000 39 e-21    s
 natural unit of velocity                                    299 792 458              (exact)                  m s^-1
-neutron Compton wavelength                                  1.319 590 905 81 e-15    0.000 000 000 75 e-15    m
+neutron Compton wavelength                                  1.319 590 905 81 e-15    0.000 000 000 75 e-15    [m]
 neutron-electron mag. mom. ratio                            1.040 668 82 e-3         0.000 000 25 e-3         
 neutron-electron mass ratio                                 1838.683 661 73          0.000 000 89             
 neutron g factor                                            -3.826 085 45            0.000 000 90             
@@ -253,7 +253,7 @@ Newtonian constant of gravitation                           6.674 30 e-11       
 Newtonian constant of gravitation over h-bar c              6.708 83 e-39            0.000 15 e-39            (GeV/c^2)^-2
 nuclear magneton                                            5.050 783 7461 e-27      0.000 000 0015 e-27      J T^-1
 nuclear magneton in eV/T                                    3.152 451 258 44 e-8     0.000 000 000 96 e-8     eV T^-1
-nuclear magneton in inverse meter per tesla                 2.542 623 413 53 e-2     0.000 000 000 78 e-2     m^-1 T^-1
+nuclear magneton in inverse meter per tesla                 2.542 623 413 53 e-2     0.000 000 000 78 e-2     [m]^-1 T^-1
 nuclear magneton in K/T                                     3.658 267 7756 e-4       0.000 000 0011 e-4       K T^-1
 nuclear magneton in MHz/T                                   7.622 593 2291           0.000 000 0023           MHz T^-1
 Planck constant                                             6.626 070 15 e-34        (exact)                  J Hz^-1
@@ -264,7 +264,7 @@ Planck mass energy equivalent in GeV                        1.220 890 e19       
 Planck temperature                                          1.416 784 e32            0.000 016 e32            K
 Planck time                                                 5.391 247 e-44           0.000 060 e-44           s
 proton charge to mass quotient                              9.578 833 1560 e7        0.000 000 0029 e7        C kg^-1
-proton Compton wavelength                                   1.321 409 855 39 e-15    0.000 000 000 40 e-15    m
+proton Compton wavelength                                   1.321 409 855 39 e-15    0.000 000 000 40 e-15    [m]
 proton-electron mass ratio                                  1836.152 673 43          0.000 000 11             
 proton g factor                                             5.585 694 6893           0.000 000 0016           
 proton gyromag. ratio                                       2.675 221 8744 e8        0.000 000 0011 e8        s^-1 T^-1
@@ -294,13 +294,13 @@ reduced Planck constant in eV s                             6.582 119 569... e-1
 reduced Planck constant times c in MeV fm                   197.326 980 4...         (exact)                  MeV fm
 reduced proton Compton wavelength                           2.103 089 103 36 e-16    0.000 000 000 64 e-16    m
 reduced tau Compton wavelength                              1.110 538 e-16           0.000 075 e-16           m
-Rydberg constant                                            10 973 731.568 160       0.000 021                m^-1
+Rydberg constant                                            10 973 731.568 160       0.000 021                [m]^-1
 Rydberg constant times c in Hz                              3.289 841 960 2508 e15   0.000 000 000 0064 e15   Hz
 Rydberg constant times hc in eV                             13.605 693 122 994       0.000 000 000 026        eV
 Rydberg constant times hc in J                              2.179 872 361 1035 e-18  0.000 000 000 0042 e-18  J
 Sackur-Tetrode constant (1 K, 100 kPa)                      -1.151 707 537 06        0.000 000 000 45         
 Sackur-Tetrode constant (1 K, 101.325 kPa)                  -1.164 870 523 58        0.000 000 000 45         
-second radiation constant                                   1.438 776 877... e-2     (exact)                  m K
+second radiation constant                                   1.438 776 877... e-2     (exact)                  [m] K
 shielded helion gyromag. ratio                              2.037 894 569 e8         0.000 000 024 e8         s^-1 T^-1
 shielded helion gyromag. ratio in MHz/T                     32.434 099 42            0.000 000 38             MHz T^-1
 shielded helion mag. mom.                                   -1.074 553 090 e-26      0.000 000 013 e-26       J T^-1
@@ -320,7 +320,7 @@ standard acceleration of gravity                            9.806 65            
 standard atmosphere                                         101 325                  (exact)                  Pa
 standard-state pressure                                     100 000                  (exact)                  Pa
 Stefan-Boltzmann constant                                   5.670 374 419... e-8     (exact)                  W m^-2 K^-4
-tau Compton wavelength                                      6.977 71 e-16            0.000 47 e-16            m
+tau Compton wavelength                                      6.977 71 e-16            0.000 47 e-16            [m]
 tau-electron mass ratio                                     3477.23                  0.23                     
 tau energy equivalent                                       1776.86                  0.12                     MeV
 tau mass                                                    3.167 54 e-27            0.000 21 e-27            kg
@@ -350,5 +350,5 @@ vacuum mag. permeability                                    1.256 637 062 12 e-6
 von Klitzing constant                                       25 812.807 45...         (exact)                  ohm
 weak mixing angle                                           0.222 90                 0.000 30                 
 Wien frequency displacement law constant                    5.878 925 757... e10     (exact)                  Hz K^-1
-Wien wavelength displacement law constant                   2.897 771 955... e-3     (exact)                  m K
+Wien wavelength displacement law constant                   2.897 771 955... e-3     (exact)                  [m] K
 W to Z mass ratio                                           0.881 53                 0.000 17                 `
