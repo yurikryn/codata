@@ -1,3 +1,4 @@
+// Ω
 let codataObject = [
 	{
 		"category": "UNIVERSAL",
@@ -3937,13 +3938,23 @@ let codataObject = [
 		"category": "ADOPTED VALUES",
 		"name": "hyperfine transition frequency of Cs-133",
 		"unit": "Hz",
-		"value2018": "9 192 631 770"
+		"value2018": "9 192 631 770",
+		"value2014": "9 192 631 770",
+		"value2010": "9 192 631 770",
+		"value2006": "9 192 631 770",
+		"value2002": "9 192 631 770",
+		"value1998": "9 192 631 770"
 	},
 	{
 		"category": "ADOPTED VALUES",
 		"name": "luminous efficacy",
 		"unit": "lm W^-1",
-		"value2018": "683"
+		"value2018": "683",
+		"value2014": "683",
+		"value2010": "683",
+		"value2006": "683",
+		"value2002": "683",
+		"value1998": "683"
 	},
 	{
 		"category": "ADOPTED VALUES",
