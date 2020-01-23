@@ -52,6 +52,7 @@ Boltzmann constant                                          1.380 649 e-23      
 Boltzmann constant in eV/K                                  8.617 333 262... e-5     (exact)                  eV K^-1
 Boltzmann constant in Hz/K                                  2.083 661 912... e10     (exact)                  Hz K^-1
 Boltzmann constant in inverse meter per kelvin              69.503 480 04...         (exact)                  [m]^-1 K^-1
+characteristic impedance of vacuum                          376.730 313 668          0.000 000 057            ohm
 classical electron radius                                   2.817 940 3262 e-15      0.000 000 0013 e-15      m
 Compton wavelength                                          2.426 310 238 67 e-12    0.000 000 000 73 e-12    [m]
 conductance quantum                                         7.748 091 729... e-5     (exact)                  S
@@ -64,7 +65,7 @@ conventional value of ohm-90                                1.000 000 017 79... 
 conventional value of volt-90                               1.000 000 106 66...      (exact)                  V
 conventional value of von Klitzing constant                 25 812.807               (exact)                  ohm_90
 conventional value of watt-90                               1.000 000 195 53...      (exact)                  W
-Cu x unit                                                   1.002 076 97 e-13        0.000 000 28 e-13        m
+Copper x unit                                               1.002 076 97 e-13        0.000 000 28 e-13        m
 deuteron-electron mag. mom. ratio                           -4.664 345 551 e-4       0.000 000 012 e-4        
 deuteron-electron mass ratio                                3670.482 967 88          0.000 000 13             
 deuteron g factor                                           0.857 438 2338           0.000 000 0022           
@@ -198,7 +199,7 @@ molar Planck constant                                       3.990 312 712... e-1
 molar volume of ideal gas (273.15 K, 100 kPa)               22.710 954 64... e-3     (exact)                  m^3 mol^-1
 molar volume of ideal gas (273.15 K, 101.325 kPa)           22.413 969 54... e-3     (exact)                  m^3 mol^-1
 molar volume of silicon                                     1.205 883 199 e-5        0.000 000 060 e-5        m^3 mol^-1
-Mo x unit                                                   1.002 099 52 e-13        0.000 000 53 e-13        m
+Molybdenum x unit                                           1.002 099 52 e-13        0.000 000 53 e-13        m
 muon Compton wavelength                                     1.173 444 110 e-14       0.000 000 026 e-14       [m]
 muon-electron mass ratio                                    206.768 2830             0.000 0046               
 muon g factor                                               -2.002 331 8418          0.000 000 0013           
