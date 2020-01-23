@@ -110,6 +110,17 @@ let codataObject = [
 	},
 	{
 		"category": "UNIVERSAL",
+		"name": "characteristic impedance of vacuum",
+		"unit": "ohm",
+		"value2018": "376.730 313 668(57)",
+		"value2014": "376.730 313 461...",
+		"value2010": "376.730 313 461...",
+		"value2006": "376.730 313 461...",
+		"value2002": "376.730 313 461...",
+		"value1998": "376.730 313 461..."
+	},
+	{
+		"category": "UNIVERSAL",
 		"name": "reduced Planck constant",
 		"unit": "J s",
 		"exponent": "-34",
@@ -2719,7 +2730,7 @@ let codataObject = [
 	},
 	{
 		"category": "X-RAY VALUES",
-		"name": "Cu x unit",
+		"name": "Copper x unit",
 		"unit": "m",
 		"exponent": "-13",
 		"value2018": "1.002 076 97(28)",
@@ -2731,7 +2742,7 @@ let codataObject = [
 	},
 	{
 		"category": "X-RAY VALUES",
-		"name": "Mo x unit",
+		"name": "Molybdenum x unit",
 		"unit": "m",
 		"exponent": "-13",
 		"value2018": "1.002 099 52(53)",
