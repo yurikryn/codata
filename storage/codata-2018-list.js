@@ -52,7 +52,7 @@ Boltzmann constant                                          1.380 649 e-23      
 Boltzmann constant in eV/K                                  8.617 333 262... e-5     (exact)                  eV K^-1
 Boltzmann constant in Hz/K                                  2.083 661 912... e10     (exact)                  Hz K^-1
 Boltzmann constant in inverse meter per kelvin              69.503 480 04...         (exact)                  [m]^-1 K^-1
-characteristic impedance of vacuum                          376.730 313 668          0.000 000 057            ohm
+characteristic impedance of vacuum                          376.730 313 668          0.000 000 057            Ω
 classical electron radius                                   2.817 940 3262 e-15      0.000 000 0013 e-15      m
 Compton wavelength                                          2.426 310 238 67 e-12    0.000 000 000 73 e-12    [m]
 conductance quantum                                         7.748 091 729... e-5     (exact)                  S
@@ -61,9 +61,9 @@ conventional value of coulomb-90                            1.000 000 088 87... 
 conventional value of farad-90                              0.999 999 982 20...      (exact)                  F
 conventional value of henry-90                              1.000 000 017 79...      (exact)                  H
 conventional value of Josephson constant                    483 597.9 e9             (exact)                  Hz V_90^-1
-conventional value of ohm-90                                1.000 000 017 79...      (exact)                  ohm
+conventional value of ohm-90                                1.000 000 017 79...      (exact)                  Ω
 conventional value of volt-90                               1.000 000 106 66...      (exact)                  V
-conventional value of von Klitzing constant                 25 812.807               (exact)                  ohm_90
+conventional value of von Klitzing constant                 25 812.807               (exact)                  Ω_90
 conventional value of watt-90                               1.000 000 195 53...      (exact)                  W
 Copper x unit                                               1.002 076 97 e-13        0.000 000 28 e-13        m
 deuteron-electron mag. mom. ratio                           -4.664 345 551 e-4       0.000 000 012 e-4        
@@ -163,7 +163,7 @@ inverse meter-hertz relationship                            299 792 458         
 inverse meter-joule relationship                            1.986 445 857... e-25    (exact)                  J
 inverse meter-kelvin relationship                           1.438 776 877... e-2     (exact)                  K
 inverse meter-kilogram relationship                         2.210 219 094... e-42    (exact)                  kg
-inverse of conductance quantum                              12 906.403 72...         (exact)                  ohm
+inverse of conductance quantum                              12 906.403 72...         (exact)                  Ω
 Josephson constant                                          483 597.848 4... e9      (exact)                  Hz V^-1
 joule-atomic mass unit relationship                         6.700 535 2565 e9        0.000 000 0020 e9        u
 joule-electron volt relationship                            6.241 509 074... e18     (exact)                  eV
@@ -348,7 +348,7 @@ triton to proton mag. mom. ratio                            1.066 639 9191      
 unified atomic mass unit                                    1.660 539 066 60 e-27    0.000 000 000 50 e-27    kg
 vacuum electric permittivity                                8.854 187 8128 e-12      0.000 000 0013 e-12      F m^-1
 vacuum mag. permeability                                    1.256 637 062 12 e-6     0.000 000 000 19 e-6     N A^-2
-von Klitzing constant                                       25 812.807 45...         (exact)                  ohm
+von Klitzing constant                                       25 812.807 45...         (exact)                  Ω
 weak mixing angle                                           0.222 90                 0.000 30                 
 Wien frequency displacement law constant                    5.878 925 757... e10     (exact)                  Hz K^-1
 Wien wavelength displacement law constant                   2.897 771 955... e-3     (exact)                  [m] K

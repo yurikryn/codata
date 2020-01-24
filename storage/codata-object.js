@@ -1,4 +1,3 @@
-// Ω
 let codataObject = [
 	{
 		"category": "UNIVERSAL",
@@ -111,7 +110,7 @@ let codataObject = [
 	{
 		"category": "UNIVERSAL",
 		"name": "characteristic impedance of vacuum",
-		"unit": "ohm",
+		"unit": "Ω",
 		"value2018": "376.730 313 668(57)",
 		"value2014": "376.730 313 461...",
 		"value2010": "376.730 313 461...",
@@ -298,7 +297,7 @@ let codataObject = [
 	{
 		"category": "ELECTROMAGNETIC",
 		"name": "inverse of conductance quantum",
-		"unit": "ohm",
+		"unit": "Ω",
 		"value2018": "12 906.403 72...",
 		"value2014": "12 906.403 7278(29)",
 		"value2010": "12 906.403 7217(42)",
@@ -380,7 +379,7 @@ let codataObject = [
 	{
 		"category": "ELECTROMAGNETIC",
 		"name": "von Klitzing constant",
-		"unit": "ohm",
+		"unit": "Ω",
 		"value2018": "25 812.807 45...",
 		"value2014": "25 812.807 4555(59)",
 		"value2010": "25 812.807 4434(84)",
@@ -3916,7 +3915,7 @@ let codataObject = [
 	{
 		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of ohm-90",
-		"unit": "ohm",
+		"unit": "Ω",
 		"value2018": "1.000 000 017 79...",
 		"value2014": "1.000 000 017 65(23)"
 	},
@@ -3930,7 +3929,7 @@ let codataObject = [
 	{
 		"category": "NON-SI UNITS # Conventional",
 		"name": "conventional value of von Klitzing constant",
-		"unit": "ohm_90",
+		"unit": "Ω_90",
 		"value2018": "25 812.807",
 		"value2014": "25 812.807",
 		"value2010": "25 812.807",
