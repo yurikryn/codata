@@ -1,1 +1,1 @@
-CODATA 1998-2014 values of fundamental physical constants as json files
+CODATA 1998-2018 values of fundamental physical constants as json files
